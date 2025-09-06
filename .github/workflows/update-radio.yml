@@ -1,0 +1,35 @@
+name: Update Radio M3U
+
+on:
+  workflow_dispatch:  # Manuel çalıştırma için
+  schedule:
+    - cron: '0 0 * * *'  # Her gün UTC 00:00'da çalışır (Türkiye saatiyle 03:00)
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Generate M3U file
+      run: npm start
+      
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add global_radio.m3u
+        git diff --cached --quiet || (git commit -m "Auto-update radio list [skip ci]" && git push)
