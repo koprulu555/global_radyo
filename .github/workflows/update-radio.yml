@@ -1,9 +1,9 @@
 name: Update Radio M3U
 
 on:
-  workflow_dispatch:  # Manuel çalıştırma için
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Her gün UTC 00:00'da çalışır (Türkiye saatiyle 03:00)
+    - cron: '0 0 * * *'  # Her gün UTC 00:00'da çalışır
 
 jobs:
   update-m3u:
@@ -11,22 +11,91 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-        cache: 'npm'
+    - name: Generate M3U file with Python
+      run: |
+        # Python ile M3U dosyası oluştur
+        python3 -c "
+import requests
+import json
+import urllib.parse
+
+# API'den verileri al
+print('Radyo istasyonları alınıyor...')
+response = requests.get(
+    'http://de1.api.radio-browser.info/json/stations?hidebroken=true&order=votes&reverse=true&limit=500',
+    headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept': 'application/json'
+    },
+    timeout=30
+)
+
+if response.status_code != 200:
+    print(f'Hata: API {response.status_code} döndürdü')
+    exit(1)
+
+stations = response.json()
+print(f'{len(stations)} istasyon alındı')
+
+# Ülkeleri grupla
+countries = {}
+for station in stations:
+    if not station.get('country') or not station.get('name') or not station.get('url'):
+        continue
         
-    - name: Install dependencies
-      run: npm install
-      
-    - name: Generate M3U file
-      run: npm start
-      
+    country = station['country'].strip()
+    if country not in countries:
+        countries[country] = []
+    
+    # URL işleme (.pls dönüşümü)
+    stream_url = station['url']
+    if '.pls' in stream_url:
+        stream_url = stream_url.replace('.pls', '.m3u').replace('http://', 'https://')
+    
+    # Geçerli URL kontrolü
+    try:
+        urllib.parse.urlparse(stream_url)
+        countries[country].append({
+            'name': station['name'].strip(),
+            'url': stream_url,
+            'logo': station.get('favicon', station.get('logo', '')),
+            'country': country,
+            'votes': station.get('votes', 0)
+        })
+    except:
+        continue
+
+# M3U çıktısını oluştur
+print('M3U dosyası oluşturuluyor...')
+m3u_output = '#EXTM3U x-tvg-url=\"\"\n\n'
+
+# Ülkeleri alfabetik sırala
+for country in sorted(countries.keys()):
+    m3u_output += f'#EXTINF:-1 tvg-id=\"\" tvg-logo=\"\" group-title=\"{country}\",{country}\n'
+    m3u_output += f'#EXTGRP:{country}\n\n'
+    
+    # İstasyonları oylara göre sırala
+    stations_sorted = sorted(countries[country], key=lambda x: x['votes'], reverse=True)
+    
+    for i, station in enumerate(stations_sorted):
+        safe_name = station['name'].replace('\"', '\\\"').replace(',', '')
+        logo = station['logo'].replace('\"', '\\\"') if station['logo'] else ''
+        
+        m3u_output += f'#EXTINF:-1 tvg-id=\"{country}_{i}\" tvg-name=\"{safe_name}\" tvg-logo=\"{logo}\" group-title=\"{country}\",{safe_name}\n'
+        m3u_output += '#EXTVLCOPT:http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\"\n'
+        m3u_output += f'{station[\"url\"]}\n\n'
+
+# Dosyaya yaz
+with open('global_radio.m3u', 'w', encoding='utf-8') as f:
+    f.write(m3u_output)
+
+print('M3U dosyası başarıyla oluşturuldu!')
+        "
+        
     - name: Commit and push if changed
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
