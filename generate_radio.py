@@ -4,8 +4,8 @@ import urllib.parse
 
 print("📻 Radyo istasyonları alınıyor...")
 try:
-    # requests kütüphanesi olmadan API'ye istek atalım
-    url = 'https://de1.api.radio-browser.info/json/stations?hidebroken=true&order=votes&reverse=true&limit=300'
+    # TÜM istasyonları al, limitsiz
+    url = 'https://de1.api.radio-browser.info/json/stations?hidebroken=true&order=votes&reverse=true'
     req = urllib.request.Request(
         url,
         headers={
@@ -14,7 +14,7 @@ try:
         }
     )
     
-    with urllib.request.urlopen(req, timeout=30) as response:
+    with urllib.request.urlopen(req, timeout=120) as response:
         data = response.read().decode('utf-8')
         stations = json.loads(data)
     
@@ -64,8 +64,17 @@ for station in stations:
 print("📝 M3U dosyası oluşturuluyor...")
 m3u_output = '#EXTM3U x-tvg-url=""\n\n'
 
-# Ülkeleri alfabetik sırala
-for country in sorted(countries.keys()):
+# Önce Türkiye'yi al, sonra diğer ülkeleri alfabetik sırala
+country_names = sorted(countries.keys())
+if 'Turkey' in country_names:
+    country_names.remove('Turkey')
+    country_names.insert(0, 'Turkey')
+elif 'Türkiye' in country_names:
+    country_names.remove('Türkiye')
+    country_names.insert(0, 'Türkiye')
+
+# Ülke kategorilerine göre sırala ve ekle
+for country in country_names:
     m3u_output += f'#EXTINF:-1 tvg-id="" tvg-logo="" group-title="{country}",{country}\n'
     m3u_output += f'#EXTGRP:{country}\n\n'
     
