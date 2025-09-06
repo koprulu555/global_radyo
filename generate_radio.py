@@ -1,19 +1,23 @@
-import requests
+import urllib.request
 import json
 import urllib.parse
 
 print("📻 Radyo istasyonları alınıyor...")
 try:
-    response = requests.get(
-        'https://de1.api.radio-browser.info/json/stations?hidebroken=true&order=votes&reverse=true&limit=500',
+    # requests kütüphanesi olmadan API'ye istek atalım
+    url = 'https://de1.api.radio-browser.info/json/stations?hidebroken=true&order=votes&reverse=true&limit=300'
+    req = urllib.request.Request(
+        url,
         headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
             'Accept': 'application/json'
-        },
-        timeout=30
+        }
     )
-    response.raise_for_status()
-    stations = response.json()
+    
+    with urllib.request.urlopen(req, timeout=30) as response:
+        data = response.read().decode('utf-8')
+        stations = json.loads(data)
+    
     print(f"✅ {len(stations)} istasyon alındı")
     
 except Exception as e:
@@ -37,7 +41,9 @@ for station in stations:
         # URL işleme (.pls dönüşümü)
         stream_url = station['url']
         if '.pls' in stream_url:
-            stream_url = stream_url.replace('.pls', '.m3u').replace('http://', 'https://')
+            stream_url = stream_url.replace('.pls', '.m3u')
+            if stream_url.startswith('http://'):
+                stream_url = stream_url.replace('http://', 'https://')
         
         # Geçerli URL kontrolü
         parsed_url = urllib.parse.urlparse(stream_url)
@@ -47,7 +53,7 @@ for station in stations:
         countries[country].append({
             'name': station['name'].strip(),
             'url': stream_url,
-            'logo': station.get('favicon', station.get('logo', '')),
+            'logo': station.get('favicon', ''),
             'country': country,
             'votes': station.get('votes', 0)
         })
@@ -75,8 +81,13 @@ for country in sorted(countries.keys()):
         m3u_output += f'{station["url"]}\n\n'
 
 # Dosyaya yaz
-with open('global_radio.m3u', 'w', encoding='utf-8') as f:
-    f.write(m3u_output)
-
-print("✅ M3U dosyası başarıyla oluşturuldu!")
-print(f"📊 Toplam {len(countries)} ülke, {sum(len(stations) for stations in countries.values())} istasyon")
+try:
+    with open('global_radio.m3u', 'w', encoding='utf-8') as f:
+        f.write(m3u_output)
+    
+    print("✅ M3U dosyası başarıyla oluşturuldu!")
+    print(f"📊 Toplam {len(countries)} ülke, {sum(len(stations) for stations in countries.values())} istasyon")
+    
+except Exception as e:
+    print(f"❌ Dosya yazma hatası: {e}")
+    exit(1)
