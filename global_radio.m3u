@@ -1179,13 +1179,13 @@ http://mp3channels.webradio.antenne.de/classic-rock-live
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://avw.mdr.de/streams/284340-0_mp3_high.m3u
 
-#EXTINF:-1 tvg-id="Germany_35" tvg-name="Total instrumental" tvg-logo="" group-title="Germany",Total instrumental
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.laut.fm/total-instrumental
-
-#EXTINF:-1 tvg-id="Germany_36" tvg-name="Hit Radio FFH - 80er" tvg-logo="" group-title="Germany",Hit Radio FFH - 80er
+#EXTINF:-1 tvg-id="Germany_35" tvg-name="Hit Radio FFH - 80er" tvg-logo="" group-title="Germany",Hit Radio FFH - 80er
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://mp3.ffh.de/ffhchannels/hq80er.mp3
+
+#EXTINF:-1 tvg-id="Germany_36" tvg-name="Total instrumental" tvg-logo="" group-title="Germany",Total instrumental
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.laut.fm/total-instrumental
 
 #EXTINF:-1 tvg-id="Germany_37" tvg-name="Laut.FM 1000 Oldies" tvg-logo="http://1000oldies.de/apple-icon-120x120.png" group-title="Germany",Laut.FM 1000 Oldies
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1259,13 +1259,13 @@ http://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_sh.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.radiobob.de/bob-alternative/mp3-192/streams.radiobob.de/
 
-#EXTINF:-1 tvg-id="Germany_55" tvg-name="Sunshine Live - Party" tvg-logo="" group-title="Germany",Sunshine Live - Party
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://sunsl.streamabc.net/sunsl-party-mp3-192-3345881?sABC=5nr16qs7%230%23q40266oo6p321s1695o82262nq851ppo%23Jroenqvb-Cynlre&amsparams=playerid:Webradio-Player;skey:1524723191
-
-#EXTINF:-1 tvg-id="Germany_56" tvg-name="- 0 N - Chillout on Radio" tvg-logo="https://www.0nradio.com/logos/0n-chillout_600x600.jpg" group-title="Germany",- 0 N - Chillout on Radio
+#EXTINF:-1 tvg-id="Germany_55" tvg-name="- 0 N - Chillout on Radio" tvg-logo="https://www.0nradio.com/logos/0n-chillout_600x600.jpg" group-title="Germany",- 0 N - Chillout on Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://0n-chillout.radionetz.de/0n-chillout.aac
+
+#EXTINF:-1 tvg-id="Germany_56" tvg-name="Sunshine Live - Party" tvg-logo="" group-title="Germany",Sunshine Live - Party
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://sunsl.streamabc.net/sunsl-party-mp3-192-3345881?sABC=5nr16qs7%230%23q40266oo6p321s1695o82262nq851ppo%23Jroenqvb-Cynlre&amsparams=playerid:Webradio-Player;skey:1524723191
 
 #EXTINF:-1 tvg-id="Germany_57" tvg-name="Antenne Bayern - Top 40" tvg-logo="http://www.antenne.de/logos/station-antenne-bayern/apple-touch-icon.png" group-title="Germany",Antenne Bayern - Top 40
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1380,6 +1380,10 @@ http://derti.live24.gr/derty1000
 #EXTINF:-1 tvg-id="Greece_14" tvg-name="Off Radio - Athens" tvg-logo="https://www.offradio.gr/wp-content/uploads/2020/09/cropped-site-icon-180x180.png" group-title="Greece",Off Radio - Athens
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://s3.yesstreaming.net:2199/tunein/offradio.m3u
+
+#EXTINF:-1 tvg-id="Greece_15" tvg-name="Laikos FM" tvg-logo="https://www.laikos.gr/templates/bt_medical/favicon.ico" group-title="Greece",Laikos FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://netradio.live24.gr/laikos876
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Guatemala",Guatemala
 #EXTGRP:Guatemala
@@ -3869,13 +3873,13 @@ http://stream.radioparadise.com/aac-128
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://www.181.fm/stream/pls/181-70s.m3u
 
-#EXTINF:-1 tvg-id="The United States Of America_79" tvg-name="SomaFM Fluid (128k MP3)" tvg-logo="https://somafm.com/img3/fluid-400.jpg" group-title="The United States Of America",SomaFM Fluid (128k MP3)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://somafm.com/fluid.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_80" tvg-name="Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds" tvg-logo="https://musiclake.com/wp-content/uploads/cropped-musiclake-lg-180x180.png" group-title="The United States Of America",Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds
+#EXTINF:-1 tvg-id="The United States Of America_79" tvg-name="Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds" tvg-logo="https://musiclake.com/wp-content/uploads/cropped-musiclake-lg-180x180.png" group-title="The United States Of America",Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://nap.casthost.net:8626/stream
+
+#EXTINF:-1 tvg-id="The United States Of America_80" tvg-name="SomaFM Fluid (128k MP3)" tvg-logo="https://somafm.com/img3/fluid-400.jpg" group-title="The United States Of America",SomaFM Fluid (128k MP3)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://somafm.com/fluid.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_81" tvg-name="100hitz - Top 40" tvg-logo="https://100hitz.com/favicon.ico" group-title="The United States Of America",100hitz - Top 40
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
