@@ -3917,13 +3917,13 @@ http://192.34.153.102:8000/RadioYAR.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://tunein.cdnstream1.com/3511_96.mp3
 
-#EXTINF:-1 tvg-id="The United States Of America_91" tvg-name="KQED 88.5 San Francisco CA" tvg-logo="" group-title="The United States Of America",KQED 88.5 San Francisco CA
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://streams.kqed.org/kqedradio.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_92" tvg-name="WALM - Old Time Radio Opus" tvg-logo="https://icecast.walmradio.com:8443/otr.jpg" group-title="The United States Of America",WALM - Old Time Radio Opus
+#EXTINF:-1 tvg-id="The United States Of America_91" tvg-name="WALM - Old Time Radio Opus" tvg-logo="https://icecast.walmradio.com:8443/otr.jpg" group-title="The United States Of America",WALM - Old Time Radio Opus
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast.walmradio.com:8443/otr_opus
+
+#EXTINF:-1 tvg-id="The United States Of America_92" tvg-name="KQED 88.5 San Francisco CA" tvg-logo="" group-title="The United States Of America",KQED 88.5 San Francisco CA
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://streams.kqed.org/kqedradio.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_93" tvg-name="Bob's Ska Radio" tvg-logo="" group-title="The United States Of America",Bob's Ska Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
