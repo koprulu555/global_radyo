@@ -55,13 +55,13 @@ http://turkmedya.radyotvonline.com/turkmedya/alemfm.stream/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://37.247.98.8/listen.m3u?sid=30
 
-#EXTINF:-1 tvg-id="Türkiye_13" tvg-name="ALTIN SARKILAR" tvg-logo="" group-title="Türkiye",ALTIN SARKILAR
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://37.247.98.8/listen.m3u?sid=25
-
-#EXTINF:-1 tvg-id="Türkiye_14" tvg-name="Baba Radyo" tvg-logo="" group-title="Türkiye",Baba Radyo
+#EXTINF:-1 tvg-id="Türkiye_13" tvg-name="Baba Radyo" tvg-logo="" group-title="Türkiye",Baba Radyo
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://46.20.7.116/
+
+#EXTINF:-1 tvg-id="Türkiye_14" tvg-name="ALTIN SARKILAR" tvg-logo="" group-title="Türkiye",ALTIN SARKILAR
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://37.247.98.8/listen.m3u?sid=25
 
 #EXTINF:-1 tvg-id="Türkiye_15" tvg-name="a HABER" tvg-logo="" group-title="Türkiye",a HABER
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -843,13 +843,13 @@ http://streaming.radio.rtl.fr/rtl-1-44-128
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.radiofrance.fr/franceculture-hifi.aac
 
-#EXTINF:-1 tvg-id="France_9" tvg-name="France Inter" tvg-logo="" group-title="France",France Inter
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://direct.franceinter.fr/live/franceinter-midfi.mp3
-
-#EXTINF:-1 tvg-id="France_10" tvg-name="RFI-Afrique" tvg-logo="" group-title="France",RFI-Afrique
+#EXTINF:-1 tvg-id="France_9" tvg-name="RFI-Afrique" tvg-logo="" group-title="France",RFI-Afrique
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://live02.rfi.fr/rfiafrique-96k.mp3
+
+#EXTINF:-1 tvg-id="France_10" tvg-name="France Inter" tvg-logo="" group-title="France",France Inter
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://direct.franceinter.fr/live/franceinter-midfi.mp3
 
 #EXTINF:-1 tvg-id="France_11" tvg-name="Skyrock" tvg-logo="https://play-lh.googleusercontent.com/dPiQ01OUKZVfRZUbbb-EVK5g9miS_K-xrxHgmBbynGG-GQ53yt3GzFKr0zUTnb-xswQ=s200-rw" group-title="France",Skyrock
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1985,6 +1985,10 @@ http://icestreaming.rai.it/6.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://sr2.inmystream.info:8032/listen.m3u
 
+#EXTINF:-1 tvg-id="Italy_38" tvg-name="ITALIA Italia 80" tvg-logo="" group-title="Italy",ITALIA Italia 80
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icy.unitedradio.it/um016.mp3
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Jamaica",Jamaica
 #EXTGRP:Jamaica
 
@@ -2990,10 +2994,6 @@ https://cast.requestradio.in.th:830/stream/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://radio11.plathong.net:8896/;stream.mp3
 
-#EXTINF:-1 tvg-id="Thailand_2" tvg-name="มิติข่าว 90.5" tvg-logo="" group-title="Thailand",มิติข่าว 90.5
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://live3.smartbomb.co.th:8624/;stream.mp3
-
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="The Democratic Republic Of The Congo",The Democratic Republic Of The Congo
 #EXTGRP:The Democratic Republic Of The Congo
 
@@ -3104,13 +3104,13 @@ https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://dorognoe.hostingradio.ru:8000/radio
 
-#EXTINF:-1 tvg-id="The Russian Federation_6" tvg-name="Вести ФМ (Vesti FM)" tvg-logo="" group-title="The Russian Federation",Вести ФМ (Vesti FM)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
-
-#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
+#EXTINF:-1 tvg-id="The Russian Federation_6" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
+
+#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Вести ФМ (Vesti FM)" tvg-logo="" group-title="The Russian Federation",Вести ФМ (Vesti FM)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
 
 #EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="Радио Русские Песни" tvg-logo="" group-title="The Russian Federation",Радио Русские Песни
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3852,13 +3852,13 @@ https://www.181.fm/stream/pls/181-blues.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://sc.hot108.com:4000/
 
-#EXTINF:-1 tvg-id="The United States Of America_76" tvg-name="VOA Learning English" tvg-logo="http://www.voanews.com/content/responsive/voa/img/webapp/ico-128x128.png" group-title="The United States Of America",VOA Learning English
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://voa-ingest.akamaized.net/hls/live/2035234/160_342L/playlist.m3u8
-
-#EXTINF:-1 tvg-id="The United States Of America_77" tvg-name="SmoothJazz.com 128k mp3" tvg-logo="https://www.smoothjazz.com/sites/default/files/theme/sj-circle-logo.png" group-title="The United States Of America",SmoothJazz.com 128k mp3
+#EXTINF:-1 tvg-id="The United States Of America_76" tvg-name="SmoothJazz.com 128k mp3" tvg-logo="https://www.smoothjazz.com/sites/default/files/theme/sj-circle-logo.png" group-title="The United States Of America",SmoothJazz.com 128k mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://smoothjazz.cdnstream1.com/2585_128.mp3
+
+#EXTINF:-1 tvg-id="The United States Of America_77" tvg-name="VOA Learning English" tvg-logo="http://www.voanews.com/content/responsive/voa/img/webapp/ico-128x128.png" group-title="The United States Of America",VOA Learning English
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://voa-ingest.akamaized.net/hls/live/2035234/160_342L/playlist.m3u8
 
 #EXTINF:-1 tvg-id="The United States Of America_78" tvg-name="Radio Paradise Main Mix 128 AAC" tvg-logo="https://radioparadise.com/apple-touch-icon.png" group-title="The United States Of America",Radio Paradise Main Mix 128 AAC
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -4076,13 +4076,13 @@ http://online.radioroks.ua/RadioROKS_Ballads_HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://online.melodiafm.ua/MelodiaFM
 
-#EXTINF:-1 tvg-id="Ukraine_7" tvg-name="Rock Ballads" tvg-logo="" group-title="Ukraine",Rock Ballads
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://online.radioroks.ua/RadioROKS_Ballads
-
-#EXTINF:-1 tvg-id="Ukraine_8" tvg-name="Наше Радіо 107.9" tvg-logo="" group-title="Ukraine",Наше Радіо 107.9
+#EXTINF:-1 tvg-id="Ukraine_7" tvg-name="Наше Радіо 107.9" tvg-logo="" group-title="Ukraine",Наше Радіо 107.9
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://online.nasheradio.ua/NasheRadio
+
+#EXTINF:-1 tvg-id="Ukraine_8" tvg-name="Rock Ballads" tvg-logo="" group-title="Ukraine",Rock Ballads
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://online.radioroks.ua/RadioROKS_Ballads
 
 #EXTINF:-1 tvg-id="Ukraine_9" tvg-name="KissFm Deep" tvg-logo="" group-title="Ukraine",KissFm Deep
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
