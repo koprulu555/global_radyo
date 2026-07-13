@@ -847,13 +847,13 @@ http://live02.rfi.fr/rfimonde-64.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://live02.rfi.fr/rfiafrique-96k.mp3
 
-#EXTINF:-1 tvg-id="France_8" tvg-name="France Culture" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1024px-France_Culture_-_2008.svg.png" group-title="France",France Culture
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://icecast.radiofrance.fr/franceculture-hifi.aac
-
-#EXTINF:-1 tvg-id="France_9" tvg-name="France Inter" tvg-logo="" group-title="France",France Inter
+#EXTINF:-1 tvg-id="France_8" tvg-name="France Inter" tvg-logo="" group-title="France",France Inter
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://direct.franceinter.fr/live/franceinter-midfi.mp3
+
+#EXTINF:-1 tvg-id="France_9" tvg-name="France Culture" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1024px-France_Culture_-_2008.svg.png" group-title="France",France Culture
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://icecast.radiofrance.fr/franceculture-hifi.aac
 
 #EXTINF:-1 tvg-id="France_10" tvg-name="RTL" tvg-logo="" group-title="France",RTL
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1238,13 +1238,13 @@ https://0n-indie.radionetz.de/0n-indie.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.0nlineradio.com/soft-rock?ref=radiobrowser
 
-#EXTINF:-1 tvg-id="Germany_48" tvg-name="MDR Klassik" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Klassik
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://avw.mdr.de/streams/284350-0_mp3_high.m3u
-
-#EXTINF:-1 tvg-id="Germany_49" tvg-name="Technolovers DEEP HOUSE" tvg-logo="" group-title="Germany",Technolovers DEEP HOUSE
+#EXTINF:-1 tvg-id="Germany_48" tvg-name="Technolovers DEEP HOUSE" tvg-logo="" group-title="Germany",Technolovers DEEP HOUSE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.technolovers.fm/deep-house?ref=radiobrowser
+
+#EXTINF:-1 tvg-id="Germany_49" tvg-name="MDR Klassik" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Klassik
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://avw.mdr.de/streams/284350-0_mp3_high.m3u
 
 #EXTINF:-1 tvg-id="Germany_50" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1631,13 +1631,13 @@ https://stream-143.zeno.fm/fdgs82xkzhhvv
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.zeno.fm/v2zfmxef798uv
 
-#EXTINF:-1 tvg-id="India_42" tvg-name="TORi-Live-8000" tvg-logo="" group-title="India",TORi-Live-8000
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://173.203.133.187:9700/;stream/1
-
-#EXTINF:-1 tvg-id="India_43" tvg-name="Tamil 80's Radio" tvg-logo="https://www.tamilradios.com/assets/img/radio-logos/tamil-80s-radio.jpg" group-title="India",Tamil 80's Radio
+#EXTINF:-1 tvg-id="India_42" tvg-name="Tamil 80's Radio" tvg-logo="https://www.tamilradios.com/assets/img/radio-logos/tamil-80s-radio.jpg" group-title="India",Tamil 80's Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://psrlive2.listenon.in/80?station=tamil80shitsradio
+
+#EXTINF:-1 tvg-id="India_43" tvg-name="TORi-Live-8000" tvg-logo="" group-title="India",TORi-Live-8000
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://173.203.133.187:9700/;stream/1
 
 #EXTINF:-1 tvg-id="India_44" tvg-name="Ajmer Radio" tvg-logo="https://zeno.fm/favicon.ico" group-title="India",Ajmer Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3094,13 +3094,13 @@ http://listen.rusongs.ru/ru-mp3-128
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://retroserver.streamr.ru:8043/retro256.mp3
 
-#EXTINF:-1 tvg-id="The Russian Federation_6" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
-
-#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
+#EXTINF:-1 tvg-id="The Russian Federation_6" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274
+
+#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
 
 #EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="Дорожное радио" tvg-logo="https://dorognoe.ru/assets/default/i/fav_114x114.png" group-title="The Russian Federation",Дорожное радио
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3496,13 +3496,13 @@ http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://64.95.243.43:8002/listen.m3u?sid=1
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_37" tvg-name="Techno.FM" tvg-logo="https://techno.fm/favicon.ico" group-title="The United Kingdom Of Great Britain And Northern Ireland",Techno.FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.techno.fm/radio.mp3
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_38" tvg-name="BBC Radio 4 (128k)" tvg-logo="https://cdn-radiotime-logos.tunein.com/s25419q.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Radio 4 (128k)
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_37" tvg-name="BBC Radio 4 (128k)" tvg-logo="https://cdn-radiotime-logos.tunein.com/s25419q.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Radio 4 (128k)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d128000.norewind.m3u8
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_38" tvg-name="Techno.FM" tvg-logo="https://techno.fm/favicon.ico" group-title="The United Kingdom Of Great Britain And Northern Ireland",Techno.FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.techno.fm/radio.mp3
 
 #EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_39" tvg-name="LBC London (London stream) MP3" tvg-logo="http://www.lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London (London stream) MP3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
