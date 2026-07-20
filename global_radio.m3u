@@ -919,13 +919,13 @@ http://direct.francemusique.fr/live/francemusique-midfi.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://direct.franceinter.fr/live/franceinter-lofi.mp3
 
-#EXTINF:-1 tvg-id="France_26" tvg-name="Latina Salsa" tvg-logo="https://bocir-prod-bucket.s3.eu-west-1.amazonaws.com/radios/latina/images/favicon.ico" group-title="France",Latina Salsa
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://latinasalsa.ice.infomaniak.ch/latinasalsa.mp3
-
-#EXTINF:-1 tvg-id="France_27" tvg-name="BFM radio" tvg-logo="https://www.radio.fr/images/broadcasts/76/27/105095/3/c300.png" group-title="France",BFM radio
+#EXTINF:-1 tvg-id="France_26" tvg-name="BFM radio" tvg-logo="https://www.radio.fr/images/broadcasts/76/27/105095/3/c300.png" group-title="France",BFM radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://audio.bfmtv.com/bfmradio_128.mp3
+
+#EXTINF:-1 tvg-id="France_27" tvg-name="Latina Salsa" tvg-logo="https://bocir-prod-bucket.s3.eu-west-1.amazonaws.com/radios/latina/images/favicon.ico" group-title="France",Latina Salsa
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://latinasalsa.ice.infomaniak.ch/latinasalsa.mp3
 
 #EXTINF:-1 tvg-id="France_28" tvg-name="Europe 1" tvg-logo="https://www.europe1.fr/build/e1/images/favicon-120x120.png" group-title="France",Europe 1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1615,13 +1615,13 @@ http://dreamsiteradiocp.com:8002/stream
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="India_38" tvg-name="2B! Radio Sangam Ganesha" tvg-logo="" group-title="India",2B! Radio Sangam Ganesha
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://radio2bindia.out.airtime.pro:8000/radio2bindia_a
-
-#EXTINF:-1 tvg-id="India_39" tvg-name="Vividh Bharti" tvg-logo="" group-title="India",Vividh Bharti
+#EXTINF:-1 tvg-id="India_38" tvg-name="Vividh Bharti" tvg-logo="" group-title="India",Vividh Bharti
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8
+
+#EXTINF:-1 tvg-id="India_39" tvg-name="2B! Radio Sangam Ganesha" tvg-logo="" group-title="India",2B! Radio Sangam Ganesha
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://radio2bindia.out.airtime.pro:8000/radio2bindia_a
 
 #EXTINF:-1 tvg-id="India_40" tvg-name="Radio Retro Bollywood 90s" tvg-logo="" group-title="India",Radio Retro Bollywood 90s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3598,13 +3598,13 @@ http://listen.181fm.com/181-oldschool_128k.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/pls/977_80.m3u
 
-#EXTINF:-1 tvg-id="The United States Of America_16" tvg-name=".977 Country" tvg-logo="" group-title="The United States Of America",.977 Country
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://playerservices.streamtheworld.com/pls/977_COUNTRY.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_17" tvg-name=".977 Hitz" tvg-logo="" group-title="The United States Of America",.977 Hitz
+#EXTINF:-1 tvg-id="The United States Of America_16" tvg-name=".977 Hitz" tvg-logo="" group-title="The United States Of America",.977 Hitz
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/pls/977_HITS.m3u
+
+#EXTINF:-1 tvg-id="The United States Of America_17" tvg-name=".977 Country" tvg-logo="" group-title="The United States Of America",.977 Country
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://playerservices.streamtheworld.com/pls/977_COUNTRY.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_18" tvg-name="Ambient Sleeping Pill" tvg-logo="" group-title="The United States Of America",Ambient Sleeping Pill
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3984,13 +3984,13 @@ https://radio.mosaiquefm.net/mosagold
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://rtstream.tanitweb.com/gafsa
 
-#EXTINF:-1 tvg-id="Tunisia_16" tvg-name="Radio Tunisia Med" tvg-logo="https://www.wix.com/favicon.ico" group-title="Tunisia",Radio Tunisia Med
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://azuracast.conceptradio.fr:8000/radio.mp3
-
-#EXTINF:-1 tvg-id="Tunisia_17" tvg-name="Mosaique FM Tounsi" tvg-logo="" group-title="Tunisia",Mosaique FM Tounsi
+#EXTINF:-1 tvg-id="Tunisia_16" tvg-name="Mosaique FM Tounsi" tvg-logo="" group-title="Tunisia",Mosaique FM Tounsi
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://radio.mosaiquefm.net/mosatounsi
+
+#EXTINF:-1 tvg-id="Tunisia_17" tvg-name="Radio Tunisia Med" tvg-logo="https://www.wix.com/favicon.ico" group-title="Tunisia",Radio Tunisia Med
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://azuracast.conceptradio.fr:8000/radio.mp3
 
 #EXTINF:-1 tvg-id="Tunisia_18" tvg-name="oxygene fm" tvg-logo="" group-title="Tunisia",oxygene fm
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
