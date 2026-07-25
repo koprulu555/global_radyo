@@ -754,13 +754,13 @@ http://n0c.radiojar.com/8s5u5tpdtwzuv?rj-ttl=5&amp;rj-tok=AAABdI5Qnd0AEmvTTG5DVt
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://live.mp3quran.net:9728/
 
-#EXTINF:-1 tvg-id="Egypt_12" tvg-name="Abdulrasheed Soufi" tvg-logo="" group-title="Egypt",Abdulrasheed Soufi
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://qurango.net/radio/abdulrasheed_soufi_assosi.mp3
-
-#EXTINF:-1 tvg-id="Egypt_13" tvg-name="Radio القارئ علي حجاج السويسي" tvg-logo="" group-title="Egypt",Radio القارئ علي حجاج السويسي
+#EXTINF:-1 tvg-id="Egypt_12" tvg-name="Radio القارئ علي حجاج السويسي" tvg-logo="" group-title="Egypt",Radio القارئ علي حجاج السويسي
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://live.mp3quran.net:9842/
+
+#EXTINF:-1 tvg-id="Egypt_13" tvg-name="Abdulrasheed Soufi" tvg-logo="" group-title="Egypt",Abdulrasheed Soufi
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://qurango.net/radio/abdulrasheed_soufi_assosi.mp3
 
 #EXTINF:-1 tvg-id="Egypt_14" tvg-name="Diab FM" tvg-logo="" group-title="Egypt",Diab FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1242,13 +1242,13 @@ https://0n-indie.radionetz.de/0n-indie.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.technolovers.fm/deep-house?ref=radiobrowser
 
-#EXTINF:-1 tvg-id="Germany_49" tvg-name="MDR Klassik" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Klassik
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://avw.mdr.de/streams/284350-0_mp3_high.m3u
-
-#EXTINF:-1 tvg-id="Germany_50" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
+#EXTINF:-1 tvg-id="Germany_49" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/
+
+#EXTINF:-1 tvg-id="Germany_50" tvg-name="MDR Klassik" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Klassik
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://avw.mdr.de/streams/284350-0_mp3_high.m3u
 
 #EXTINF:-1 tvg-id="Germany_51" tvg-name="- 0 N - Smooth Jazz on Radio" tvg-logo="https://www.0nradio.com/logos/0n-smooth-jazz_600x600.jpg" group-title="Germany",- 0 N - Smooth Jazz on Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1703,6 +1703,10 @@ http://shaddai.onlivestreaming.net:9130/live
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.radiojar.com/rrqf78p3bnzuv.mp3
 
+#EXTINF:-1 tvg-id="Indonesia_15" tvg-name="Delta FM Jakarta" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoorUN6xkuaIk6TGP-9ihpdnXm229tGwOtllkyFdsupw&s" group-title="Indonesia",Delta FM Jakarta
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://s1.cloudmu.id:8030/radio.mp3
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Iraq",Iraq
 #EXTGRP:Iraq
 
@@ -1973,10 +1977,6 @@ http://icestreaming.rai.it/6.mp3
 #EXTINF:-1 tvg-id="Italy_37" tvg-name="Italia Dance Music" tvg-logo="http://www.italiadancemusic.com/it/themes/corporate_lite/favicon.ico" group-title="Italy",Italia Dance Music
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://sr2.inmystream.info:8032/listen.m3u
-
-#EXTINF:-1 tvg-id="Italy_38" tvg-name="Rai Radio Classica Filodiffusione" tvg-logo="" group-title="Italy",Rai Radio Classica Filodiffusione
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://icestreaming.rai.it/5.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Jamaica",Jamaica
 #EXTGRP:Jamaica
@@ -2825,13 +2825,13 @@ https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streaming5.elitecomunicacion.es:8082/live32.aac
 
-#EXTINF:-1 tvg-id="Spain_13" tvg-name="Radio Marca" tvg-logo="" group-title="Spain",Radio Marca
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://sonic.mediatelekom.net/9316/stream
-
-#EXTINF:-1 tvg-id="Spain_14" tvg-name="Cadena Dial" tvg-logo="https://www.cadenadial.com/wp-content/uploads/2024/03/cropped-512x512_favicon_dial-180x180.png" group-title="Spain",Cadena Dial
+#EXTINF:-1 tvg-id="Spain_13" tvg-name="Cadena Dial" tvg-logo="https://www.cadenadial.com/wp-content/uploads/2024/03/cropped-512x512_favicon_dial-180x180.png" group-title="Spain",Cadena Dial
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3
+
+#EXTINF:-1 tvg-id="Spain_14" tvg-name="Radio Marca" tvg-logo="" group-title="Spain",Radio Marca
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://sonic.mediatelekom.net/9316/stream
 
 #EXTINF:-1 tvg-id="Spain_15" tvg-name="Cadena SER Radio MADRID" tvg-logo="https://cadenaser00.epimg.net/favicon.png" group-title="Spain",Cadena SER Radio MADRID
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2951,13 +2951,13 @@ http://strm112.1.fm/x_mobile_mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.srg-ssr.ch/m/drs3/mp3_128
 
-#EXTINF:-1 tvg-id="Switzerland_17" tvg-name="1.FM - Bay Smooth Jazz Radio" tvg-logo="" group-title="Switzerland",1.FM - Bay Smooth Jazz Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://strm112.1.fm/smoothjazz_mobile_mp3
-
-#EXTINF:-1 tvg-id="Switzerland_18" tvg-name="1.FM - BOM Psytrance Radio" tvg-logo="" group-title="Switzerland",1.FM - BOM Psytrance Radio
+#EXTINF:-1 tvg-id="Switzerland_17" tvg-name="1.FM - BOM Psytrance Radio" tvg-logo="" group-title="Switzerland",1.FM - BOM Psytrance Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://strm112.1.fm/psytrance_mobile_mp3
+
+#EXTINF:-1 tvg-id="Switzerland_18" tvg-name="1.FM - Bay Smooth Jazz Radio" tvg-logo="" group-title="Switzerland",1.FM - Bay Smooth Jazz Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://strm112.1.fm/smoothjazz_mobile_mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Syrian Arab Republic",Syrian Arab Republic
 #EXTGRP:Syrian Arab Republic
@@ -3275,13 +3275,13 @@ http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://jfm1.hostingradio.ru:14536/ijstream.mp3
 
-#EXTINF:-1 tvg-id="The Russian Federation_52" tvg-name="Звезда" tvg-logo="" group-title="The Russian Federation",Звезда
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128
-
-#EXTINF:-1 tvg-id="The Russian Federation_53" tvg-name="Радио дача" tvg-logo="null" group-title="The Russian Federation",Радио дача
+#EXTINF:-1 tvg-id="The Russian Federation_52" tvg-name="Радио дача" tvg-logo="null" group-title="The Russian Federation",Радио дача
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://listen13.vdfm.ru:8000/dacha
+
+#EXTINF:-1 tvg-id="The Russian Federation_53" tvg-name="Звезда" tvg-logo="" group-title="The Russian Federation",Звезда
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128
 
 #EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Радио Родных Дорог" tvg-logo="" group-title="The Russian Federation",Радио Родных Дорог
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3311,13 +3311,13 @@ http://emgspb.hostingradio.ru/novoespb128.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream1.hostingradio.ru:8010/19_mp3_128
 
-#EXTINF:-1 tvg-id="The Russian Federation_61" tvg-name="Radio Caprice - Retrowave" tvg-logo="http://radcap.ru/apple-touch-icon.png" group-title="The Russian Federation",Radio Caprice - Retrowave
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://79.120.39.202:9125/
-
-#EXTINF:-1 tvg-id="The Russian Federation_62" tvg-name="HIP HOP RADIO" tvg-logo="" group-title="The Russian Federation",HIP HOP RADIO
+#EXTINF:-1 tvg-id="The Russian Federation_61" tvg-name="HIP HOP RADIO" tvg-logo="" group-title="The Russian Federation",HIP HOP RADIO
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://tntradio.hostingradio.ru:8027/hhr128.mp3
+
+#EXTINF:-1 tvg-id="The Russian Federation_62" tvg-name="Radio Caprice - Retrowave" tvg-logo="http://radcap.ru/apple-touch-icon.png" group-title="The Russian Federation",Radio Caprice - Retrowave
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://79.120.39.202:9125/
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="The United Arab Emirates",The United Arab Emirates
 #EXTGRP:The United Arab Emirates
