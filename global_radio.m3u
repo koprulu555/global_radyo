@@ -1190,13 +1190,13 @@ http://stream.laut.fm/total-instrumental
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://mp3.ffh.de/ffhchannels/hq80er.mp3
 
-#EXTINF:-1 tvg-id="Germany_36" tvg-name="MDR Aktuell" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Aktuell
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://avw.mdr.de/streams/284340-0_mp3_high.m3u
-
-#EXTINF:-1 tvg-id="Germany_37" tvg-name="80s80s Radio" tvg-logo="https://upload.80s80s.de/production/static/1697296555757/icons/icon_512.ewwAEi8A30w.png" group-title="Germany",80s80s Radio
+#EXTINF:-1 tvg-id="Germany_36" tvg-name="80s80s Radio" tvg-logo="https://upload.80s80s.de/production/static/1697296555757/icons/icon_512.ewwAEi8A30w.png" group-title="Germany",80s80s Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.80s80s.de/web/mp3-192/play.m3u
+
+#EXTINF:-1 tvg-id="Germany_37" tvg-name="MDR Aktuell" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Aktuell
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://avw.mdr.de/streams/284340-0_mp3_high.m3u
 
 #EXTINF:-1 tvg-id="Germany_38" tvg-name="90s90s Techno HQ" tvg-logo="" group-title="Germany",90s90s Techno HQ
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3591,17 +3591,17 @@ http://relax.stream.publicradio.org/relax.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://listen.181fm.com/181-oldschool_128k.mp3
 
-#EXTINF:-1 tvg-id="The United States Of America_15" tvg-name=".977 Hitz" tvg-logo="" group-title="The United States Of America",.977 Hitz
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://playerservices.streamtheworld.com/pls/977_HITS.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_16" tvg-name=".977 Country" tvg-logo="" group-title="The United States Of America",.977 Country
+#EXTINF:-1 tvg-id="The United States Of America_15" tvg-name=".977 Country" tvg-logo="" group-title="The United States Of America",.977 Country
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/pls/977_COUNTRY.m3u
 
-#EXTINF:-1 tvg-id="The United States Of America_17" tvg-name=".977 80s" tvg-logo="" group-title="The United States Of America",.977 80s
+#EXTINF:-1 tvg-id="The United States Of America_16" tvg-name=".977 80s" tvg-logo="" group-title="The United States Of America",.977 80s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/pls/977_80.m3u
+
+#EXTINF:-1 tvg-id="The United States Of America_17" tvg-name=".977 Hitz" tvg-logo="" group-title="The United States Of America",.977 Hitz
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://playerservices.streamtheworld.com/pls/977_HITS.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_18" tvg-name="Ambient Sleeping Pill" tvg-logo="" group-title="The United States Of America",Ambient Sleeping Pill
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
