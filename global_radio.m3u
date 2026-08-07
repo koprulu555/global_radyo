@@ -1361,6 +1361,10 @@ https://smooth.vanillaradio.com:8032/live.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://derti.live24.gr/derty1000
 
+#EXTINF:-1 tvg-id="Greece_14" tvg-name="Laikos FM" tvg-logo="https://www.laikos.gr/templates/bt_medical/favicon.ico" group-title="Greece",Laikos FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://netradio.live24.gr/laikos876
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Guatemala",Guatemala
 #EXTGRP:Guatemala
 
@@ -1702,10 +1706,6 @@ http://shaddai.onlivestreaming.net:9130/live
 #EXTINF:-1 tvg-id="Indonesia_14" tvg-name="TraxFM Jakarta" tvg-logo="" group-title="Indonesia",TraxFM Jakarta
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.radiojar.com/rrqf78p3bnzuv.mp3
-
-#EXTINF:-1 tvg-id="Indonesia_15" tvg-name="Delta FM Jakarta" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoorUN6xkuaIk6TGP-9ihpdnXm229tGwOtllkyFdsupw&s" group-title="Indonesia",Delta FM Jakarta
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://s1.cloudmu.id:8030/radio.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Iraq",Iraq
 #EXTGRP:Iraq
@@ -2845,13 +2845,13 @@ https://streams.radio.co/se1a320b47/listen
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.cdm-chillout.com:8020/stream-AAC-Chill
 
-#EXTINF:-1 tvg-id="Spain_18" tvg-name="MegaStarFM" tvg-logo="https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png" group-title="Spain",MegaStarFM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
-
-#EXTINF:-1 tvg-id="Spain_19" tvg-name="Absolute Chillout" tvg-logo="http://www.absolutechillout.com/favicon.ico" group-title="Spain",Absolute Chillout
+#EXTINF:-1 tvg-id="Spain_18" tvg-name="Absolute Chillout" tvg-logo="http://www.absolutechillout.com/favicon.ico" group-title="Spain",Absolute Chillout
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://edge4.peta.live365.net/b05055_128mp3
+
+#EXTINF:-1 tvg-id="Spain_19" tvg-name="MegaStarFM" tvg-logo="https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png" group-title="Spain",MegaStarFM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
 
 #EXTINF:-1 tvg-id="Spain_20" tvg-name="Radio Marca Barcelona" tvg-logo="http://e00-marca.uecdn.es/favicon.ico" group-title="Spain",Radio Marca Barcelona
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2951,13 +2951,13 @@ http://strm112.1.fm/x_mobile_mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.srg-ssr.ch/m/drs3/mp3_128
 
-#EXTINF:-1 tvg-id="Switzerland_17" tvg-name="1.FM - BOM Psytrance Radio" tvg-logo="" group-title="Switzerland",1.FM - BOM Psytrance Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://strm112.1.fm/psytrance_mobile_mp3
-
-#EXTINF:-1 tvg-id="Switzerland_18" tvg-name="1.FM - Bay Smooth Jazz Radio" tvg-logo="" group-title="Switzerland",1.FM - Bay Smooth Jazz Radio
+#EXTINF:-1 tvg-id="Switzerland_17" tvg-name="1.FM - Bay Smooth Jazz Radio" tvg-logo="" group-title="Switzerland",1.FM - Bay Smooth Jazz Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://strm112.1.fm/smoothjazz_mobile_mp3
+
+#EXTINF:-1 tvg-id="Switzerland_18" tvg-name="1.FM - BOM Psytrance Radio" tvg-logo="" group-title="Switzerland",1.FM - BOM Psytrance Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://strm112.1.fm/psytrance_mobile_mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Syrian Arab Republic",Syrian Arab Republic
 #EXTGRP:Syrian Arab Republic
@@ -3095,13 +3095,13 @@ http://listen.rusongs.ru/ru-mp3-128
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://dorognoe.hostingradio.ru:8000/radio
 
-#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
-
-#EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
+#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274
+
+#EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
 
 #EXTINF:-1 tvg-id="The Russian Federation_9" tvg-name="Вести ФМ (Vesti FM)" tvg-logo="" group-title="The Russian Federation",Вести ФМ (Vesti FM)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
