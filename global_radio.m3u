@@ -847,13 +847,13 @@ http://live02.rfi.fr/rfimonde-64.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://live02.rfi.fr/rfiafrique-96k.mp3
 
-#EXTINF:-1 tvg-id="France_8" tvg-name="France Inter" tvg-logo="" group-title="France",France Inter
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://direct.franceinter.fr/live/franceinter-midfi.mp3
-
-#EXTINF:-1 tvg-id="France_9" tvg-name="France Culture" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1024px-France_Culture_-_2008.svg.png" group-title="France",France Culture
+#EXTINF:-1 tvg-id="France_8" tvg-name="France Culture" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/France_Culture_-_2008.svg/1024px-France_Culture_-_2008.svg.png" group-title="France",France Culture
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.radiofrance.fr/franceculture-hifi.aac
+
+#EXTINF:-1 tvg-id="France_9" tvg-name="France Inter" tvg-logo="" group-title="France",France Inter
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://direct.franceinter.fr/live/franceinter-midfi.mp3
 
 #EXTINF:-1 tvg-id="France_10" tvg-name="RTL" tvg-logo="" group-title="France",RTL
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2845,13 +2845,13 @@ https://streams.radio.co/se1a320b47/listen
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.cdm-chillout.com:8020/stream-AAC-Chill
 
-#EXTINF:-1 tvg-id="Spain_18" tvg-name="MegaStarFM" tvg-logo="https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png" group-title="Spain",MegaStarFM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
-
-#EXTINF:-1 tvg-id="Spain_19" tvg-name="Absolute Chillout" tvg-logo="http://www.absolutechillout.com/favicon.ico" group-title="Spain",Absolute Chillout
+#EXTINF:-1 tvg-id="Spain_18" tvg-name="Absolute Chillout" tvg-logo="http://www.absolutechillout.com/favicon.ico" group-title="Spain",Absolute Chillout
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://edge4.peta.live365.net/b05055_128mp3
+
+#EXTINF:-1 tvg-id="Spain_19" tvg-name="MegaStarFM" tvg-logo="https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png" group-title="Spain",MegaStarFM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
 
 #EXTINF:-1 tvg-id="Spain_20" tvg-name="Radio Marca Barcelona" tvg-logo="http://e00-marca.uecdn.es/favicon.ico" group-title="Spain",Radio Marca Barcelona
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3283,21 +3283,21 @@ http://listen13.vdfm.ru:8000/dacha
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128
 
-#EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Радио Родных Дорог" tvg-logo="" group-title="The Russian Federation",Радио Родных Дорог
+#EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icecast.anon.fm/radio
+
+#EXTINF:-1 tvg-id="The Russian Federation_55" tvg-name="Радио Родных Дорог" tvg-logo="" group-title="The Russian Federation",Радио Родных Дорог
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream1.radiord.ru:8000/live96.aac
 
-#EXTINF:-1 tvg-id="The Russian Federation_55" tvg-name="Соловьёв LIVE" tvg-logo="" group-title="The Russian Federation",Соловьёв LIVE
+#EXTINF:-1 tvg-id="The Russian Federation_56" tvg-name="Соловьёв LIVE" tvg-logo="" group-title="The Russian Federation",Соловьёв LIVE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://solovievfm.hostingradio.ru/solovievfm128.aacp
 
-#EXTINF:-1 tvg-id="The Russian Federation_56" tvg-name="HIT FM" tvg-logo="http://hitfm.ru/apple-icon.png?b1d3d31b1e6c8f8f" group-title="The Russian Federation",HIT FM
+#EXTINF:-1 tvg-id="The Russian Federation_57" tvg-name="HIT FM" tvg-logo="http://hitfm.ru/apple-icon.png?b1d3d31b1e6c8f8f" group-title="The Russian Federation",HIT FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://hitfm.hostingradio.ru/hitfm96.aacp
-
-#EXTINF:-1 tvg-id="The Russian Federation_57" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icecast.anon.fm/radio
 
 #EXTINF:-1 tvg-id="The Russian Federation_58" tvg-name="Вести FM" tvg-logo="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-120x120.png" group-title="The Russian Federation",Вести FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
