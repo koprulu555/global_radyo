@@ -381,13 +381,13 @@ https://provisioning.streamtheworld.com/pls/JBFMAAC.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://server02.ouvir.radio.br:8050/stream?1609720768800
 
-#EXTINF:-1 tvg-id="Brazil_12" tvg-name="Antena 1 Rio de Janeiro RJ (ZYD 463 1037 MHz FM)" tvg-logo="" group-title="Brazil",Antena 1 Rio de Janeiro RJ (ZYD 463 1037 MHz FM)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://a1rj.streams.com.br:7801/sm
-
-#EXTINF:-1 tvg-id="Brazil_13" tvg-name="89 A Radio Rock" tvg-logo="" group-title="Brazil",89 A Radio Rock
+#EXTINF:-1 tvg-id="Brazil_12" tvg-name="89 A Radio Rock" tvg-logo="" group-title="Brazil",89 A Radio Rock
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_89FM_ADP.aac?dist=site-89fm
+
+#EXTINF:-1 tvg-id="Brazil_13" tvg-name="Antena 1 Rio de Janeiro RJ (ZYD 463 1037 MHz FM)" tvg-logo="" group-title="Brazil",Antena 1 Rio de Janeiro RJ (ZYD 463 1037 MHz FM)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://a1rj.streams.com.br:7801/sm
 
 #EXTINF:-1 tvg-id="Brazil_14" tvg-name="Rádio Bandeirantes - São Paulo" tvg-logo="" group-title="Brazil",Rádio Bandeirantes - São Paulo
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1870,25 +1870,25 @@ http://icecast.unitedradio.it/Virgin.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icy.unitedradio.it/105Dance90.mp3
 
-#EXTINF:-1 tvg-id="Italy_11" tvg-name="Radio 80" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/1b/Radio80.jpg" group-title="Italy",Radio 80
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://str01.fluidstream.net:7020/;stream.mp3
-
-#EXTINF:-1 tvg-id="Italy_12" tvg-name="70 80 Hits HQ" tvg-logo="" group-title="Italy",70 80 Hits HQ
+#EXTINF:-1 tvg-id="Italy_11" tvg-name="70 80 Hits HQ" tvg-logo="" group-title="Italy",70 80 Hits HQ
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://nr8.newradio.it:19574/stream
+
+#EXTINF:-1 tvg-id="Italy_12" tvg-name="Radio 80" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/1b/Radio80.jpg" group-title="Italy",Radio 80
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://str01.fluidstream.net:7020/;stream.mp3
 
 #EXTINF:-1 tvg-id="Italy_13" tvg-name="Virgin Radio Rock '70" tvg-logo="" group-title="Italy",Virgin Radio Rock '70
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icy.unitedradio.it/VirginRock70.mp3
 
-#EXTINF:-1 tvg-id="Italy_14" tvg-name="Radio Studio Più - HQ" tvg-logo="https://studiopiu.net/offline/img/icona.png" group-title="Italy",Radio Studio Più - HQ
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://77.241.4.100:8020/;
-
-#EXTINF:-1 tvg-id="Italy_15" tvg-name="Virgin Radio Rock '80" tvg-logo="" group-title="Italy",Virgin Radio Rock '80
+#EXTINF:-1 tvg-id="Italy_14" tvg-name="Virgin Radio Rock '80" tvg-logo="" group-title="Italy",Virgin Radio Rock '80
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icy.unitedradio.it/VirginRock80.mp3
+
+#EXTINF:-1 tvg-id="Italy_15" tvg-name="Radio Studio Più - HQ" tvg-logo="https://studiopiu.net/offline/img/icona.png" group-title="Italy",Radio Studio Più - HQ
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://77.241.4.100:8020/;
 
 #EXTINF:-1 tvg-id="Italy_16" tvg-name="Tele Radio Stereo" tvg-logo="http://cdn-radiotime-logos.tunein.com/s17518q.png" group-title="Italy",Tele Radio Stereo
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3271,21 +3271,21 @@ https://icecast-rian.cdnvideo.ru/voicerus
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps
 
-#EXTINF:-1 tvg-id="The Russian Federation_51" tvg-name="Instrumental Jazz" tvg-logo="https://radiojazzfm.ru/favicons/apple-touch-icon.png" group-title="The Russian Federation",Instrumental Jazz
+#EXTINF:-1 tvg-id="The Russian Federation_51" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icecast.anon.fm/radio
+
+#EXTINF:-1 tvg-id="The Russian Federation_52" tvg-name="Instrumental Jazz" tvg-logo="https://radiojazzfm.ru/favicons/apple-touch-icon.png" group-title="The Russian Federation",Instrumental Jazz
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://jfm1.hostingradio.ru:14536/ijstream.mp3
 
-#EXTINF:-1 tvg-id="The Russian Federation_52" tvg-name="Радио дача" tvg-logo="null" group-title="The Russian Federation",Радио дача
+#EXTINF:-1 tvg-id="The Russian Federation_53" tvg-name="Радио дача" tvg-logo="null" group-title="The Russian Federation",Радио дача
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://listen13.vdfm.ru:8000/dacha
 
-#EXTINF:-1 tvg-id="The Russian Federation_53" tvg-name="Звезда" tvg-logo="" group-title="The Russian Federation",Звезда
+#EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Звезда" tvg-logo="" group-title="The Russian Federation",Звезда
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128
-
-#EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icecast.anon.fm/radio
 
 #EXTINF:-1 tvg-id="The Russian Federation_55" tvg-name="Радио Родных Дорог" tvg-logo="" group-title="The Russian Federation",Радио Родных Дорог
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
