@@ -393,13 +393,13 @@ http://a1rj.streams.com.br:7801/sm
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/api/livestream-redirect/RadioBandeirantesAAC.m3u8
 
-#EXTINF:-1 tvg-id="Brazil_15" tvg-name="Super Radio Tupi 96.5" tvg-logo="" group-title="Brazil",Super Radio Tupi 96.5
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://8923.brasilstream.com.br/stream
-
-#EXTINF:-1 tvg-id="Brazil_16" tvg-name="Rádio Cidade - Rio de Janeiro - 102.9 FM - ZYD462" tvg-logo="" group-title="Brazil",Rádio Cidade - Rio de Janeiro - 102.9 FM - ZYD462
+#EXTINF:-1 tvg-id="Brazil_15" tvg-name="Rádio Cidade - Rio de Janeiro - 102.9 FM - ZYD462" tvg-logo="" group-title="Brazil",Rádio Cidade - Rio de Janeiro - 102.9 FM - ZYD462
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOCIDADEAAC.aac
+
+#EXTINF:-1 tvg-id="Brazil_16" tvg-name="Super Radio Tupi 96.5" tvg-logo="" group-title="Brazil",Super Radio Tupi 96.5
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://8923.brasilstream.com.br/stream
 
 #EXTINF:-1 tvg-id="Brazil_17" tvg-name="Smooth Jazz Lounge" tvg-logo="https://www.vip-radios.fm/favicon.ico" group-title="Brazil",Smooth Jazz Lounge
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3095,13 +3095,13 @@ http://listen.rusongs.ru/ru-mp3-128
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://dorognoe.hostingradio.ru:8000/radio
 
-#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
-
-#EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
+#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274
+
+#EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="Дискотека СССР" tvg-logo="" group-title="The Russian Federation",Дискотека СССР
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA
 
 #EXTINF:-1 tvg-id="The Russian Federation_9" tvg-name="Вести ФМ (Vesti FM)" tvg-logo="" group-title="The Russian Federation",Вести ФМ (Vesti FM)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3425,13 +3425,13 @@ http://media-ice.musicradio.com/ClassicFMMP3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://media-ssl.musicradio.com/ChillMP3
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_20" tvg-name="Jazz London Radio" tvg-logo="https://www.jazzlondonradio.com/images/favicon.ico" group-title="The United Kingdom Of Great Britain And Northern Ireland",Jazz London Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://radio.canstream.co.uk:8075/live.mp3
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_21" tvg-name="Heart Dance" tvg-logo="https://www.heart.co.uk/assets_v4r/heart/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Heart Dance
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_20" tvg-name="Heart Dance" tvg-logo="https://www.heart.co.uk/assets_v4r/heart/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Heart Dance
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://media-ssl.musicradio.com/HeartDanceMP3
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_21" tvg-name="Jazz London Radio" tvg-logo="https://www.jazzlondonradio.com/images/favicon.ico" group-title="The United Kingdom Of Great Britain And Northern Ireland",Jazz London Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://radio.canstream.co.uk:8075/live.mp3
 
 #EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_22" tvg-name="Heart 90s" tvg-logo="https://www.heart.co.uk/assets_v4r/heart/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Heart 90s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3501,13 +3501,13 @@ https://64.95.243.43:8002/listen.m3u?sid=1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.techno.fm/radio.mp3
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_39" tvg-name="LBC London (London stream) MP3" tvg-logo="http://www.lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London (London stream) MP3
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://media-ice.musicradio.com/LBCLondonMP3Low
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_40" tvg-name="1Mix Radio Trance" tvg-logo="http://www.1mix.co.uk/favicon.ico" group-title="The United Kingdom Of Great Britain And Northern Ireland",1Mix Radio Trance
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_39" tvg-name="1Mix Radio Trance" tvg-logo="http://www.1mix.co.uk/favicon.ico" group-title="The United Kingdom Of Great Britain And Northern Ireland",1Mix Radio Trance
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://1mix.co.uk/trance/listenh.m3u
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_40" tvg-name="LBC London (London stream) MP3" tvg-logo="http://www.lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London (London stream) MP3
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://media-ice.musicradio.com/LBCLondonMP3Low
 
 #EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_41" tvg-name="Different Drumz DnB Radio" tvg-logo="http://www.differentdrumz.co.uk/wp-content/uploads/fbrfg/apple-touch-icon-114x114.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Different Drumz DnB Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
