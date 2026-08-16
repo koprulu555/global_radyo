@@ -975,13 +975,13 @@ http://icecast.radiofrance.fr/fipjazz-hifi.aac
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://jazz-wr16.ice.infomaniak.ch/jazz-wr16-128.mp3
 
-#EXTINF:-1 tvg-id="France_40" tvg-name="RTL2" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/5/51/RTL2.png" group-title="France",RTL2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://streamer-02.rtl.fr/rtl2-1-44-128
-
-#EXTINF:-1 tvg-id="France_41" tvg-name="France Inter" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png" group-title="France",France Inter
+#EXTINF:-1 tvg-id="France_40" tvg-name="France Inter" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png" group-title="France",France Inter
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8?id=radiofrance
+
+#EXTINF:-1 tvg-id="France_41" tvg-name="RTL2" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/5/51/RTL2.png" group-title="France",RTL2
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://streamer-02.rtl.fr/rtl2-1-44-128
 
 #EXTINF:-1 tvg-id="France_42" tvg-name="RFM" tvg-logo="http://cdn-rfm.lanmedia.fr/apple-touch-icon-120x120.png" group-title="France",RFM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2444,13 +2444,13 @@ http://stream4.nadaje.com:11986/prs
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://195.150.20.9/80S
 
-#EXTINF:-1 tvg-id="Poland_24" tvg-name="TokFM" tvg-logo="https://static.im-g.pl/im/6/7455/m7455556.gif" group-title="Poland",TokFM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://radiostream.pl/tuba10-1.mp3
-
-#EXTINF:-1 tvg-id="Poland_25" tvg-name="Antyradio" tvg-logo="https://gfx.antyradio.pl/design/antyradio/src/images/favicon/favicon_180x180.png" group-title="Poland",Antyradio
+#EXTINF:-1 tvg-id="Poland_24" tvg-name="Antyradio" tvg-logo="https://gfx.antyradio.pl/design/antyradio/src/images/favicon/favicon_180x180.png" group-title="Poland",Antyradio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://n-4-4.dcs.redcdn.pl/sc/o2/Eurozet/live/antyradio.livx
+
+#EXTINF:-1 tvg-id="Poland_25" tvg-name="TokFM" tvg-logo="https://static.im-g.pl/im/6/7455/m7455556.gif" group-title="Poland",TokFM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://radiostream.pl/tuba10-1.mp3
 
 #EXTINF:-1 tvg-id="Poland_26" tvg-name="RMF FM" tvg-logo="https://www.rmf.fm/assets/images/favicon/apple-icon-120x120.png?3" group-title="Poland",RMF FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3247,21 +3247,21 @@ https://kpradio.hostingradio.ru:8000/64
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps
 
-#EXTINF:-1 tvg-id="The Russian Federation_45" tvg-name="Модель для сборки" tvg-logo="http://mds-station.com/apple-icon-120x120.png" group-title="The Russian Federation",Модель для сборки
+#EXTINF:-1 tvg-id="The Russian Federation_45" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icecast.anon.fm/radio
+
+#EXTINF:-1 tvg-id="The Russian Federation_46" tvg-name="Модель для сборки" tvg-logo="http://mds-station.com/apple-icon-120x120.png" group-title="The Russian Federation",Модель для сборки
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://mds-station.com:8000/mds
 
-#EXTINF:-1 tvg-id="The Russian Federation_46" tvg-name="Юмор FM" tvg-logo="https://www.veseloeradio.ru/design/images/assets/img/icons/touch-icon-ipad.png" group-title="The Russian Federation",Юмор FM
+#EXTINF:-1 tvg-id="The Russian Federation_47" tvg-name="Юмор FM" tvg-logo="https://www.veseloeradio.ru/design/images/assets/img/icons/touch-icon-ipad.png" group-title="The Russian Federation",Юмор FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://pub0101.101.ru:8000/stream/air/aac/64/102
 
-#EXTINF:-1 tvg-id="The Russian Federation_47" tvg-name="Европа Плюс" tvg-logo="http://liveam.tv/img/2494.jpg" group-title="The Russian Federation",Европа Плюс
+#EXTINF:-1 tvg-id="The Russian Federation_48" tvg-name="Европа Плюс" tvg-logo="http://liveam.tv/img/2494.jpg" group-title="The Russian Federation",Европа Плюс
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://ep256.hostingradio.ru:8052/europaplus256.mp3
-
-#EXTINF:-1 tvg-id="The Russian Federation_48" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icecast.anon.fm/radio
 
 #EXTINF:-1 tvg-id="The Russian Federation_49" tvg-name="Radio Caprice - Eurodance" tvg-logo="http://www.radcap.ru/apple-touch-icon.png" group-title="The Russian Federation",Radio Caprice - Eurodance
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
