@@ -1182,13 +1182,13 @@ http://mp3.ffh.de/radioffh/hqlivestream.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://mp3channels.webradio.antenne.de/classic-rock-live
 
-#EXTINF:-1 tvg-id="Germany_34" tvg-name="Total instrumental" tvg-logo="" group-title="Germany",Total instrumental
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.laut.fm/total-instrumental
-
-#EXTINF:-1 tvg-id="Germany_35" tvg-name="80s80s Radio" tvg-logo="https://upload.80s80s.de/production/static/1697296555757/icons/icon_512.ewwAEi8A30w.png" group-title="Germany",80s80s Radio
+#EXTINF:-1 tvg-id="Germany_34" tvg-name="80s80s Radio" tvg-logo="https://upload.80s80s.de/production/static/1697296555757/icons/icon_512.ewwAEi8A30w.png" group-title="Germany",80s80s Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.80s80s.de/web/mp3-192/play.m3u
+
+#EXTINF:-1 tvg-id="Germany_35" tvg-name="Total instrumental" tvg-logo="" group-title="Germany",Total instrumental
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.laut.fm/total-instrumental
 
 #EXTINF:-1 tvg-id="Germany_36" tvg-name="Hit Radio FFH - 80er" tvg-logo="" group-title="Germany",Hit Radio FFH - 80er
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1238,13 +1238,13 @@ https://stream.technolovers.fm/deep-house?ref=radiobrowser
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.0nlineradio.com/soft-rock?ref=radiobrowser
 
-#EXTINF:-1 tvg-id="Germany_48" tvg-name="- 0 N - Indie on Radio" tvg-logo="https://www.0nradio.com/logos/0n-indie_600x600.jpg" group-title="Germany",- 0 N - Indie on Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://0n-indie.radionetz.de/0n-indie.mp3
-
-#EXTINF:-1 tvg-id="Germany_49" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
+#EXTINF:-1 tvg-id="Germany_48" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/
+
+#EXTINF:-1 tvg-id="Germany_49" tvg-name="- 0 N - Indie on Radio" tvg-logo="https://www.0nradio.com/logos/0n-indie_600x600.jpg" group-title="Germany",- 0 N - Indie on Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://0n-indie.radionetz.de/0n-indie.mp3
 
 #EXTINF:-1 tvg-id="Germany_50" tvg-name="MDR Klassik" tvg-logo="https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png" group-title="Germany",MDR Klassik
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1364,6 +1364,10 @@ https://smooth.vanillaradio.com:8032/live.m3u
 #EXTINF:-1 tvg-id="Greece_13" tvg-name="Derti 98.6" tvg-logo="" group-title="Greece",Derti 98.6
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://derti.live24.gr/derty1000
+
+#EXTINF:-1 tvg-id="Greece_14" tvg-name="Laikos FM" tvg-logo="https://www.laikos.gr/templates/bt_medical/favicon.ico" group-title="Greece",Laikos FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://netradio.live24.gr/laikos876
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Guatemala",Guatemala
 #EXTGRP:Guatemala
@@ -1568,13 +1572,13 @@ http://ibadat.out.airtime.pro:8000/ibadat_a
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://sonic.onlineaudience.co.uk/8114/stream
 
-#EXTINF:-1 tvg-id="India_27" tvg-name="My 90s Bengali" tvg-logo="https://myradiodj4.blogspot.com/favicon.ico" group-title="India",My 90s Bengali
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.zeno.fm/2k6xfu1pvs8uv
-
-#EXTINF:-1 tvg-id="India_28" tvg-name="RADIO BOLLYWOOD 90s" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/9fKKkfbJKE.png" group-title="India",RADIO BOLLYWOOD 90s
+#EXTINF:-1 tvg-id="India_27" tvg-name="RADIO BOLLYWOOD 90s" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/9fKKkfbJKE.png" group-title="India",RADIO BOLLYWOOD 90s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.zeno.fm/rm4i9pdex3cuv
+
+#EXTINF:-1 tvg-id="India_28" tvg-name="My 90s Bengali" tvg-logo="https://myradiodj4.blogspot.com/favicon.ico" group-title="India",My 90s Bengali
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.zeno.fm/2k6xfu1pvs8uv
 
 #EXTINF:-1 tvg-id="India_29" tvg-name="Hindi Gold Radio" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/07/hindi-gold-radio.jpg" group-title="India",Hindi Gold Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2006,13 +2010,13 @@ https://listen1.myradio24.com/5967
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Latvia",Latvia
 #EXTGRP:Latvia
 
-#EXTINF:-1 tvg-id="Latvia_0" tvg-name="European Hit Radio - Dance" tvg-logo="" group-title="Latvia",European Hit Radio - Dance
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.europeanhitradio.com:8000/Stream_24.aac
-
-#EXTINF:-1 tvg-id="Latvia_1" tvg-name="Ретро FM Рига (Retro FM)" tvg-logo="http://retrofm.lv/view/site/favicons/apple-touch-icon.png" group-title="Latvia",Ретро FM Рига (Retro FM)
+#EXTINF:-1 tvg-id="Latvia_0" tvg-name="Ретро FM Рига (Retro FM)" tvg-logo="http://retrofm.lv/view/site/favicons/apple-touch-icon.png" group-title="Latvia",Ретро FM Рига (Retro FM)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://live.retrofm.lv/retrofmlatvia
+
+#EXTINF:-1 tvg-id="Latvia_1" tvg-name="European Hit Radio - Dance" tvg-logo="" group-title="Latvia",European Hit Radio - Dance
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.europeanhitradio.com:8000/Stream_24.aac
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Lebanon",Lebanon
 #EXTGRP:Lebanon
@@ -2400,13 +2404,13 @@ http://31.192.216.10/DANCE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream3.polskieradio.pl:8904/
 
-#EXTINF:-1 tvg-id="Poland_13" tvg-name="Radio ZET" tvg-logo="" group-title="Poland",Radio ZET
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx?audio=5
-
-#EXTINF:-1 tvg-id="Poland_14" tvg-name="Radio 357" tvg-logo="https://radio357.pl/wp-content/uploads/2022/04/c5399c0d-1b8e-43d5-b23b-e5cef1857856.png" group-title="Poland",Radio 357
+#EXTINF:-1 tvg-id="Poland_13" tvg-name="Radio 357" tvg-logo="https://radio357.pl/wp-content/uploads/2022/04/c5399c0d-1b8e-43d5-b23b-e5cef1857856.png" group-title="Poland",Radio 357
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://n-11-21.dcs.redcdn.pl/sc/o2/radio357/live/radio357_pr.livx?preroll=0
+
+#EXTINF:-1 tvg-id="Poland_14" tvg-name="Radio ZET" tvg-logo="" group-title="Poland",Radio ZET
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx?audio=5
 
 #EXTINF:-1 tvg-id="Poland_15" tvg-name="TOK FM" tvg-logo="https://static.im-g.pl/im/6/7455/m7455556.gif" group-title="Poland",TOK FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3243,21 +3247,21 @@ https://solovievfm.hostingradio.ru/solovievfm32.aacp
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://kpradio.hostingradio.ru:8000/64
 
-#EXTINF:-1 tvg-id="The Russian Federation_44" tvg-name="Радио России (Radio Russia)" tvg-logo="" group-title="The Russian Federation",Радио России (Radio Russia)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps
-
-#EXTINF:-1 tvg-id="The Russian Federation_45" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
+#EXTINF:-1 tvg-id="The Russian Federation_44" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast.anon.fm/radio
 
-#EXTINF:-1 tvg-id="The Russian Federation_46" tvg-name="Модель для сборки" tvg-logo="http://mds-station.com/apple-icon-120x120.png" group-title="The Russian Federation",Модель для сборки
+#EXTINF:-1 tvg-id="The Russian Federation_45" tvg-name="Радио России (Radio Russia)" tvg-logo="" group-title="The Russian Federation",Радио России (Radio Russia)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://mds-station.com:8000/mds
+http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps
 
-#EXTINF:-1 tvg-id="The Russian Federation_47" tvg-name="Юмор FM" tvg-logo="https://www.veseloeradio.ru/design/images/assets/img/icons/touch-icon-ipad.png" group-title="The Russian Federation",Юмор FM
+#EXTINF:-1 tvg-id="The Russian Federation_46" tvg-name="Юмор FM" tvg-logo="https://www.veseloeradio.ru/design/images/assets/img/icons/touch-icon-ipad.png" group-title="The Russian Federation",Юмор FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://pub0101.101.ru:8000/stream/air/aac/64/102
+
+#EXTINF:-1 tvg-id="The Russian Federation_47" tvg-name="Модель для сборки" tvg-logo="http://mds-station.com/apple-icon-120x120.png" group-title="The Russian Federation",Модель для сборки
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://mds-station.com:8000/mds
 
 #EXTINF:-1 tvg-id="The Russian Federation_48" tvg-name="Европа Плюс" tvg-logo="http://liveam.tv/img/2494.jpg" group-title="The Russian Federation",Европа Плюс
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3485,13 +3489,13 @@ http://media-ice.musicradio.com/HeartUKMP3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://radio.talksport.com/stream2?awparams=platform:ts-web&amsparams=playerid:ts-web;
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_35" tvg-name="BBC Afrique Radio" tvg-logo="https://static.files.bbci.co.uk/ws/simorgh-assets/public/afrique/images/icons/icon-128x128.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Afrique Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_afrique_radio.m3u8
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_36" tvg-name="BBC Radio 4 (128k)" tvg-logo="https://cdn-radiotime-logos.tunein.com/s25419q.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Radio 4 (128k)
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_35" tvg-name="BBC Radio 4 (128k)" tvg-logo="https://cdn-radiotime-logos.tunein.com/s25419q.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Radio 4 (128k)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d128000.norewind.m3u8
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_36" tvg-name="BBC Afrique Radio" tvg-logo="https://static.files.bbci.co.uk/ws/simorgh-assets/public/afrique/images/icons/icon-128x128.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Afrique Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_afrique_radio.m3u8
 
 #EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_37" tvg-name="BEST SMOOTH JAZZ - UK" tvg-logo="" group-title="The United Kingdom Of Great Britain And Northern Ireland",BEST SMOOTH JAZZ - UK
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
