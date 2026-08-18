@@ -1298,13 +1298,13 @@ http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icepool.silvacast.com/RADIOPALOMA.mp3
 
-#EXTINF:-1 tvg-id="Germany_63" tvg-name="NDR 2" tvg-logo="https://www.ndr.de//apple-touch-icon-57x57.png" group-title="Germany",NDR 2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://www.ndr.de/resources/metadaten/audio_ssl/m3u/ndr2.m3u
-
-#EXTINF:-1 tvg-id="Germany_64" tvg-name="Bayern 3" tvg-logo="https://api.ardmediathek.de/image-service/images/urn:ard:image:52fd25fc45de7c6a?w=512" group-title="Germany",Bayern 3
+#EXTINF:-1 tvg-id="Germany_63" tvg-name="Bayern 3" tvg-logo="https://api.ardmediathek.de/image-service/images/urn:ard:image:52fd25fc45de7c6a?w=512" group-title="Germany",Bayern 3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://dispatcher.rndfnk.com/br/br3/live/mp3/mid
+
+#EXTINF:-1 tvg-id="Germany_64" tvg-name="NDR 2" tvg-logo="https://www.ndr.de//apple-touch-icon-57x57.png" group-title="Germany",NDR 2
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://www.ndr.de/resources/metadaten/audio_ssl/m3u/ndr2.m3u
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Greece",Greece
 #EXTGRP:Greece
@@ -1364,10 +1364,6 @@ https://smooth.vanillaradio.com:8032/live.m3u
 #EXTINF:-1 tvg-id="Greece_13" tvg-name="Derti 98.6" tvg-logo="" group-title="Greece",Derti 98.6
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://derti.live24.gr/derty1000
-
-#EXTINF:-1 tvg-id="Greece_14" tvg-name="Laikos FM" tvg-logo="https://www.laikos.gr/templates/bt_medical/favicon.ico" group-title="Greece",Laikos FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://netradio.live24.gr/laikos876
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Guatemala",Guatemala
 #EXTGRP:Guatemala
@@ -3243,13 +3239,13 @@ https://icecast-vgtrk.cdnvideo.ru/vestifm_aac_32kbps
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://solovievfm.hostingradio.ru/solovievfm32.aacp
 
-#EXTINF:-1 tvg-id="The Russian Federation_43" tvg-name="Комсомольская правда" tvg-logo="https://radiokp.ru/modules/custom/dna_kpradio/modules/kp_favicon/img/favicon-194x194.png?v=1.1" group-title="The Russian Federation",Комсомольская правда
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://kpradio.hostingradio.ru:8000/64
-
-#EXTINF:-1 tvg-id="The Russian Federation_44" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
+#EXTINF:-1 tvg-id="The Russian Federation_43" tvg-name="Radio Anonymous" tvg-logo="https://icecast.anon.fm/logo.png" group-title="The Russian Federation",Radio Anonymous
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast.anon.fm/radio
+
+#EXTINF:-1 tvg-id="The Russian Federation_44" tvg-name="Комсомольская правда" tvg-logo="https://radiokp.ru/modules/custom/dna_kpradio/modules/kp_favicon/img/favicon-194x194.png?v=1.1" group-title="The Russian Federation",Комсомольская правда
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://kpradio.hostingradio.ru:8000/64
 
 #EXTINF:-1 tvg-id="The Russian Federation_45" tvg-name="Радио России (Radio Russia)" tvg-logo="" group-title="The Russian Federation",Радио России (Radio Russia)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3303,13 +3299,13 @@ https://solovievfm.hostingradio.ru/solovievfm128.aacp
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://hitfm.hostingradio.ru/hitfm96.aacp
 
-#EXTINF:-1 tvg-id="The Russian Federation_58" tvg-name="Вести FM" tvg-logo="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-120x120.png" group-title="The Russian Federation",Вести FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icecast-vgtrk.cdnvideo.ru/vestifm
-
-#EXTINF:-1 tvg-id="The Russian Federation_59" tvg-name="Русское Радио: Русский Рок" tvg-logo="" group-title="The Russian Federation",Русское Радио: Русский Рок
+#EXTINF:-1 tvg-id="The Russian Federation_58" tvg-name="Русское Радио: Русский Рок" tvg-logo="" group-title="The Russian Federation",Русское Радио: Русский Рок
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://rr-russkijrok.hostingradio.ru/russkijrok96.aacp.m3u
+
+#EXTINF:-1 tvg-id="The Russian Federation_59" tvg-name="Вести FM" tvg-logo="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-120x120.png" group-title="The Russian Federation",Вести FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icecast-vgtrk.cdnvideo.ru/vestifm
 
 #EXTINF:-1 tvg-id="The Russian Federation_60" tvg-name="Новое Радио 91.1 (СПб)" tvg-logo="https://newradio.ru/favicon.ico" group-title="The Russian Federation",Новое Радио 91.1 (СПб)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3887,13 +3883,13 @@ http://nap.casthost.net:8793/stream
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream3.megarockradio.net:80/
 
-#EXTINF:-1 tvg-id="The United States Of America_88" tvg-name="2000 FM - Country" tvg-logo="http://2000fm.net/images/logo.png" group-title="The United States Of America",2000 FM - Country
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://bigrradio.cdnstream1.com/5103_128
-
-#EXTINF:-1 tvg-id="The United States Of America_89" tvg-name="Today's Hot Country" tvg-logo="https://www.todayshotcountry.com/wp-content/uploads/2016/10/cropped-siteicon-180x180.png" group-title="The United States Of America",Today's Hot Country
+#EXTINF:-1 tvg-id="The United States Of America_88" tvg-name="Today's Hot Country" tvg-logo="https://www.todayshotcountry.com/wp-content/uploads/2016/10/cropped-siteicon-180x180.png" group-title="The United States Of America",Today's Hot Country
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://ice.stream101.com:9016/stream
+
+#EXTINF:-1 tvg-id="The United States Of America_89" tvg-name="2000 FM - Country" tvg-logo="http://2000fm.net/images/logo.png" group-title="The United States Of America",2000 FM - Country
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://bigrradio.cdnstream1.com/5103_128
 
 #EXTINF:-1 tvg-id="The United States Of America_90" tvg-name="SomaFM Heavyweight Reggae (256k MP3)" tvg-logo="https://somafm.com/img3/reggae400.jpg" group-title="The United States Of America",SomaFM Heavyweight Reggae (256k MP3)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
