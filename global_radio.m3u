@@ -2227,13 +2227,13 @@ http://broadcast.ice.infomaniak.ch/aswat-high.mp3?.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://beldifm.hf.ma/radio/8000/radio.mp3
 
-#EXTINF:-1 tvg-id="Morocco_3" tvg-name="Medi 1 Radio Andalouse" tvg-logo="" group-title="Morocco",Medi 1 Radio Andalouse
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://live.medi1.com/Andalouse
-
-#EXTINF:-1 tvg-id="Morocco_4" tvg-name="Only rai" tvg-logo="" group-title="Morocco",Only rai
+#EXTINF:-1 tvg-id="Morocco_3" tvg-name="Only rai" tvg-logo="" group-title="Morocco",Only rai
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://onlyrai.ice.infomaniak.ch/onlyrai-high.mp3
+
+#EXTINF:-1 tvg-id="Morocco_4" tvg-name="Medi 1 Radio Andalouse" tvg-logo="" group-title="Morocco",Medi 1 Radio Andalouse
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://live.medi1.com/Andalouse
 
 #EXTINF:-1 tvg-id="Morocco_5" tvg-name="MA:-Hit Radio Maroc" tvg-logo="" group-title="Morocco",MA:-Hit Radio Maroc
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3259,13 +3259,13 @@ http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_128kbps
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://pub0101.101.ru:8000/stream/air/aac/64/102
 
-#EXTINF:-1 tvg-id="The Russian Federation_47" tvg-name="Модель для сборки" tvg-logo="http://mds-station.com/apple-icon-120x120.png" group-title="The Russian Federation",Модель для сборки
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://mds-station.com:8000/mds
-
-#EXTINF:-1 tvg-id="The Russian Federation_48" tvg-name="Европа Плюс" tvg-logo="http://liveam.tv/img/2494.jpg" group-title="The Russian Federation",Европа Плюс
+#EXTINF:-1 tvg-id="The Russian Federation_47" tvg-name="Европа Плюс" tvg-logo="http://liveam.tv/img/2494.jpg" group-title="The Russian Federation",Европа Плюс
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://ep256.hostingradio.ru:8052/europaplus256.mp3
+
+#EXTINF:-1 tvg-id="The Russian Federation_48" tvg-name="Модель для сборки" tvg-logo="http://mds-station.com/apple-icon-120x120.png" group-title="The Russian Federation",Модель для сборки
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://mds-station.com:8000/mds
 
 #EXTINF:-1 tvg-id="The Russian Federation_49" tvg-name="Radio Caprice - Eurodance" tvg-logo="http://www.radcap.ru/apple-touch-icon.png" group-title="The Russian Federation",Radio Caprice - Eurodance
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
