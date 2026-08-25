@@ -35,13 +35,13 @@ https://provisioning.streamtheworld.com/pls/METRO_FMAAC.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8
 
-#EXTINF:-1 tvg-id="Türkiye_8" tvg-name="KRAL TÜRK FM" tvg-logo="" group-title="Türkiye",KRAL TÜRK FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://live.radyositesihazir.com/8032/stream
-
-#EXTINF:-1 tvg-id="Türkiye_9" tvg-name="NTV Radyo" tvg-logo="http://www.ntvradyo.com.tr/favicon.ico" group-title="Türkiye",NTV Radyo
+#EXTINF:-1 tvg-id="Türkiye_8" tvg-name="NTV Radyo" tvg-logo="http://www.ntvradyo.com.tr/favicon.ico" group-title="Türkiye",NTV Radyo
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://46.20.3.207/listen.m3u
+
+#EXTINF:-1 tvg-id="Türkiye_9" tvg-name="KRAL TÜRK FM" tvg-logo="" group-title="Türkiye",KRAL TÜRK FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://live.radyositesihazir.com/8032/stream
 
 #EXTINF:-1 tvg-id="Türkiye_10" tvg-name="Ankara Havalari" tvg-logo="" group-title="Türkiye",Ankara Havalari
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2672,13 +2672,13 @@ https://fm.alarabiya.net/fm/myStream/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://10gb1.acangroup.org:8000/rsi
 
-#EXTINF:-1 tvg-id="Senegal_1" tvg-name="Sud FM Sen Radio" tvg-logo="" group-title="Senegal",Sud FM Sen Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.zenolive.com/rq40edfn3reuv
-
-#EXTINF:-1 tvg-id="Senegal_2" tvg-name="Dakar Musique" tvg-logo="https://dakarmusique.com/wp-content/uploads/2022/11/cropped-486-486-max-180x180.png" group-title="Senegal",Dakar Musique
+#EXTINF:-1 tvg-id="Senegal_1" tvg-name="Dakar Musique" tvg-logo="https://dakarmusique.com/wp-content/uploads/2022/11/cropped-486-486-max-180x180.png" group-title="Senegal",Dakar Musique
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://listen.senemultimedia.net:8090/stream
+
+#EXTINF:-1 tvg-id="Senegal_2" tvg-name="Sud FM Sen Radio" tvg-logo="" group-title="Senegal",Sud FM Sen Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.zenolive.com/rq40edfn3reuv
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Serbia",Serbia
 #EXTGRP:Serbia
