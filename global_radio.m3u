@@ -1680,13 +1680,13 @@ http://45.64.97.82:9940/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://a8.siar.us/listen/campursari/stream
 
-#EXTINF:-1 tvg-id="Indonesia_8" tvg-name="Hardrock 87.6 FM Jakarta" tvg-logo="https://hardrockfm.com/favicon.ico" group-title="Indonesia",Hardrock 87.6 FM Jakarta
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.radiojar.com/7csmg90fuqruv
-
-#EXTINF:-1 tvg-id="Indonesia_9" tvg-name="Radio Dangdut 97.1 FM Jakarta" tvg-logo="http://www.hit-tuner.net/images/radiologos/img_laender/radio_dangdut_971.png" group-title="Indonesia",Radio Dangdut 97.1 FM Jakarta
+#EXTINF:-1 tvg-id="Indonesia_8" tvg-name="Radio Dangdut 97.1 FM Jakarta" tvg-logo="http://www.hit-tuner.net/images/radiologos/img_laender/radio_dangdut_971.png" group-title="Indonesia",Radio Dangdut 97.1 FM Jakarta
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://202.147.199.99:8000/;
+
+#EXTINF:-1 tvg-id="Indonesia_9" tvg-name="Hardrock 87.6 FM Jakarta" tvg-logo="https://hardrockfm.com/favicon.ico" group-title="Indonesia",Hardrock 87.6 FM Jakarta
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.radiojar.com/7csmg90fuqruv
 
 #EXTINF:-1 tvg-id="Indonesia_10" tvg-name="Suara Surabaya FM" tvg-logo="" group-title="Indonesia",Suara Surabaya FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3812,13 +3812,13 @@ https://voa-ingest.akamaized.net/hls/live/2035234/160_342L/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.radioparadise.com/aac-128
 
-#EXTINF:-1 tvg-id="The United States Of America_74" tvg-name="Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds" tvg-logo="https://musiclake.com/wp-content/uploads/cropped-musiclake-lg-180x180.png" group-title="The United States Of America",Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://nap.casthost.net:8626/stream
-
-#EXTINF:-1 tvg-id="The United States Of America_75" tvg-name="181.FM - Super 70s" tvg-logo="http://www.181.fm/favicon.ico" group-title="The United States Of America",181.FM - Super 70s
+#EXTINF:-1 tvg-id="The United States Of America_74" tvg-name="181.FM - Super 70s" tvg-logo="http://www.181.fm/favicon.ico" group-title="The United States Of America",181.FM - Super 70s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://www.181.fm/stream/pls/181-70s.m3u
+
+#EXTINF:-1 tvg-id="The United States Of America_75" tvg-name="Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds" tvg-logo="https://musiclake.com/wp-content/uploads/cropped-musiclake-lg-180x180.png" group-title="The United States Of America",Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://nap.casthost.net:8626/stream
 
 #EXTINF:-1 tvg-id="The United States Of America_76" tvg-name="100hitz - Top 40" tvg-logo="https://100hitz.com/favicon.ico" group-title="The United States Of America",100hitz - Top 40
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
