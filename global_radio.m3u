@@ -35,13 +35,13 @@ https://provisioning.streamtheworld.com/pls/METRO_FMAAC.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8
 
-#EXTINF:-1 tvg-id="Türkiye_8" tvg-name="NTV Radyo" tvg-logo="http://www.ntvradyo.com.tr/favicon.ico" group-title="Türkiye",NTV Radyo
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://46.20.3.207/listen.m3u
-
-#EXTINF:-1 tvg-id="Türkiye_9" tvg-name="KRAL TÜRK FM" tvg-logo="" group-title="Türkiye",KRAL TÜRK FM
+#EXTINF:-1 tvg-id="Türkiye_8" tvg-name="KRAL TÜRK FM" tvg-logo="" group-title="Türkiye",KRAL TÜRK FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://live.radyositesihazir.com/8032/stream
+
+#EXTINF:-1 tvg-id="Türkiye_9" tvg-name="NTV Radyo" tvg-logo="http://www.ntvradyo.com.tr/favicon.ico" group-title="Türkiye",NTV Radyo
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://46.20.3.207/listen.m3u
 
 #EXTINF:-1 tvg-id="Türkiye_10" tvg-name="Alem FM" tvg-logo="https://www.alemfm.com/assets/img/alemfm-apple-touch-icon.png" group-title="Türkiye",Alem FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -1037,13 +1037,13 @@ https://ouifm.ice.infomaniak.ch/ouifm-high.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://jzr-piano.ice.infomaniak.ch/jzr-piano.mp3
 
-#EXTINF:-1 tvg-id="France_53" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://europe2.lmn.fm/europe2.mp3
-
-#EXTINF:-1 tvg-id="France_54" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
+#EXTINF:-1 tvg-id="France_53" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://audio.bfmtv.com/bfmradio_128.mp3
+
+#EXTINF:-1 tvg-id="France_54" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://europe2.lmn.fm/europe2.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Germany",Germany
 #EXTGRP:Germany
@@ -1861,13 +1861,13 @@ http://icecast.unitedradio.it/Virgin.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icy.unitedradio.it/105Dance90.mp3
 
-#EXTINF:-1 tvg-id="Italy_11" tvg-name="70 80 Hits HQ" tvg-logo="" group-title="Italy",70 80 Hits HQ
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://nr8.newradio.it:19574/stream
-
-#EXTINF:-1 tvg-id="Italy_12" tvg-name="Radio 80" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/1b/Radio80.jpg" group-title="Italy",Radio 80
+#EXTINF:-1 tvg-id="Italy_11" tvg-name="Radio 80" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/1b/Radio80.jpg" group-title="Italy",Radio 80
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://str01.fluidstream.net:7020/;stream.mp3
+
+#EXTINF:-1 tvg-id="Italy_12" tvg-name="70 80 Hits HQ" tvg-logo="" group-title="Italy",70 80 Hits HQ
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://nr8.newradio.it:19574/stream
 
 #EXTINF:-1 tvg-id="Italy_13" tvg-name="Virgin Radio Rock '70" tvg-logo="" group-title="Italy",Virgin Radio Rock '70
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3498,13 +3498,13 @@ http://media-the.musicradio.com/RadioXUK
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://media-the.musicradio.com/RadioXManchester
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_36" tvg-name="BBC Arabic Radio" tvg-logo="https://static.files.bbci.co.uk/ws/simorgh-assets/public/arabic/images/icons/icon-128x128.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Arabic Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_arabic_radio.m3u8
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_37" tvg-name="LOVE.radio Only Love Songs 70s80s90s" tvg-logo="" group-title="The United Kingdom Of Great Britain And Northern Ireland",LOVE.radio Only Love Songs 70s80s90s
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_36" tvg-name="LOVE.radio Only Love Songs 70s80s90s" tvg-logo="" group-title="The United Kingdom Of Great Britain And Northern Ireland",LOVE.radio Only Love Songs 70s80s90s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://loveradio.streamingmedia.it/england
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_37" tvg-name="BBC Arabic Radio" tvg-logo="https://static.files.bbci.co.uk/ws/simorgh-assets/public/arabic/images/icons/icon-128x128.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",BBC Arabic Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_arabic_radio.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="The United States Minor Outlying Islands",The United States Minor Outlying Islands
 #EXTGRP:The United States Minor Outlying Islands
@@ -3784,13 +3784,13 @@ https://somafm.com/metal130.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.radioparadise.com/mellow-320
 
-#EXTINF:-1 tvg-id="The United States Of America_67" tvg-name=".977 Comedy" tvg-logo="" group-title="The United States Of America",.977 Comedy
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://playerservices.streamtheworld.com/pls/977_COMEDY.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_68" tvg-name="181.FM - True Blues" tvg-logo="http://www.181.fm/favicon.ico" group-title="The United States Of America",181.FM - True Blues
+#EXTINF:-1 tvg-id="The United States Of America_67" tvg-name="181.FM - True Blues" tvg-logo="http://www.181.fm/favicon.ico" group-title="The United States Of America",181.FM - True Blues
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://www.181.fm/stream/pls/181-blues.m3u
+
+#EXTINF:-1 tvg-id="The United States Of America_68" tvg-name=".977 Comedy" tvg-logo="" group-title="The United States Of America",.977 Comedy
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://playerservices.streamtheworld.com/pls/977_COMEDY.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_69" tvg-name="SMOOTH JAZZ 24/7" tvg-logo="" group-title="The United States Of America",SMOOTH JAZZ 24/7
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
