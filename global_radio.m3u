@@ -1037,13 +1037,13 @@ https://ouifm.ice.infomaniak.ch/ouifm-high.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://jzr-piano.ice.infomaniak.ch/jzr-piano.mp3
 
-#EXTINF:-1 tvg-id="France_53" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://audio.bfmtv.com/bfmradio_128.mp3
-
-#EXTINF:-1 tvg-id="France_54" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
+#EXTINF:-1 tvg-id="France_53" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://europe2.lmn.fm/europe2.mp3
+
+#EXTINF:-1 tvg-id="France_54" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://audio.bfmtv.com/bfmradio_128.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Germany",Germany
 #EXTGRP:Germany
@@ -3434,13 +3434,13 @@ https://media-ssl.musicradio.com/Heart90sMP3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://listen-msmn.sharp-stream.com/nme2.mp3
 
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_20" tvg-name="RadioX UK" tvg-logo="" group-title="The United Kingdom Of Great Britain And Northern Ireland",RadioX UK
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://icecast.thisisdax.com/RadioXUKMP3.m3u
-
-#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_21" tvg-name="Classic FM Relax" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/61wHBPSryzL.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Classic FM Relax
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_20" tvg-name="Classic FM Relax" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/61wHBPSryzL.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",Classic FM Relax
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://media-the.musicradio.com/ClassicFM-M-Relax
+
+#EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_21" tvg-name="RadioX UK" tvg-logo="" group-title="The United Kingdom Of Great Britain And Northern Ireland",RadioX UK
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://icecast.thisisdax.com/RadioXUKMP3.m3u
 
 #EXTINF:-1 tvg-id="The United Kingdom Of Great Britain And Northern Ireland_22" tvg-name="LBC London (London stream) AAC" tvg-logo="http://www.lbc.co.uk/assets_v4r/lbc/img/favicon-196x196.png" group-title="The United Kingdom Of Great Britain And Northern Ireland",LBC London (London stream) AAC
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
