@@ -1037,13 +1037,13 @@ https://ouifm.ice.infomaniak.ch/ouifm-high.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://jzr-piano.ice.infomaniak.ch/jzr-piano.mp3
 
-#EXTINF:-1 tvg-id="France_53" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://europe2.lmn.fm/europe2.mp3
-
-#EXTINF:-1 tvg-id="France_54" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
+#EXTINF:-1 tvg-id="France_53" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://audio.bfmtv.com/bfmradio_128.mp3
+
+#EXTINF:-1 tvg-id="France_54" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://europe2.lmn.fm/europe2.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Germany",Germany
 #EXTGRP:Germany
@@ -1593,13 +1593,13 @@ http://ibadat.out.airtime.pro:8000/ibadat_a
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.zeno.fm/rm4i9pdex3cuv
 
-#EXTINF:-1 tvg-id="India_23" tvg-name="My 90s Bengali" tvg-logo="https://myradiodj4.blogspot.com/favicon.ico" group-title="India",My 90s Bengali
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://stream.zeno.fm/2k6xfu1pvs8uv
-
-#EXTINF:-1 tvg-id="India_24" tvg-name="Hindi Gold Radio" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/07/hindi-gold-radio.jpg" group-title="India",Hindi Gold Radio
+#EXTINF:-1 tvg-id="India_23" tvg-name="Hindi Gold Radio" tvg-logo="https://onlineradiohub.com/wp-content/uploads/2023/07/hindi-gold-radio.jpg" group-title="India",Hindi Gold Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://azuracast.vibesounds.in:8010/radio.mp3
+
+#EXTINF:-1 tvg-id="India_24" tvg-name="My 90s Bengali" tvg-logo="https://myradiodj4.blogspot.com/favicon.ico" group-title="India",My 90s Bengali
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://stream.zeno.fm/2k6xfu1pvs8uv
 
 #EXTINF:-1 tvg-id="India_25" tvg-name="Bollywood 2010's" tvg-logo="" group-title="India",Bollywood 2010's
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3708,13 +3708,13 @@ http://stream.radioparadise.com/rock-320
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://ocb01.akacast.akamaistream.net/7/365/437903/v1/ibb.akacast.akamaistream.net/ocb01
 
-#EXTINF:-1 tvg-id="The United States Of America_48" tvg-name="SomaFM Lush (128k MP3)" tvg-logo="https://somafm.com/img3/lush-400.jpg" group-title="The United States Of America",SomaFM Lush (128k MP3)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://somafm.com/lush.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_49" tvg-name="CNN" tvg-logo="https://www.cnn.com/media/sites/cnn/favicon.ico" group-title="The United States Of America",CNN
+#EXTINF:-1 tvg-id="The United States Of America_48" tvg-name="CNN" tvg-logo="https://www.cnn.com/media/sites/cnn/favicon.ico" group-title="The United States Of America",CNN
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://tunein.cdnstream1.com/2868_96.mp3
+
+#EXTINF:-1 tvg-id="The United States Of America_49" tvg-name="SomaFM Lush (128k MP3)" tvg-logo="https://somafm.com/img3/lush-400.jpg" group-title="The United States Of America",SomaFM Lush (128k MP3)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://somafm.com/lush.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_50" tvg-name="2000 FM - RnB & Hip-Hop" tvg-logo="" group-title="The United States Of America",2000 FM - RnB & Hip-Hop
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
