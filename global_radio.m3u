@@ -91,10 +91,6 @@ http://voyagewmp.radyotvonline.com/;stream.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_SC
 
-#EXTINF:-1 tvg-id="Türkiye_22" tvg-name="90lar turkey" tvg-logo="" group-title="Türkiye",90lar turkey
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://37.247.98.8/stream/166/
-
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Afghanistan",Afghanistan
 #EXTGRP:Afghanistan
 
@@ -1037,13 +1033,13 @@ https://ouifm.ice.infomaniak.ch/ouifm-high.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://jzr-piano.ice.infomaniak.ch/jzr-piano.mp3
 
-#EXTINF:-1 tvg-id="France_53" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://audio.bfmtv.com/bfmradio_128.mp3
-
-#EXTINF:-1 tvg-id="France_54" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
+#EXTINF:-1 tvg-id="France_53" tvg-name="Europe 2" tvg-logo="https://www.europe2.fr/wp-content/themes/melty/europeradio/assets/images/favicons/favicon128.png" group-title="France",Europe 2
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://europe2.lmn.fm/europe2.mp3
+
+#EXTINF:-1 tvg-id="France_54" tvg-name="BFM Radio (128.mp3)" tvg-logo="https://www.bfmtv.com/android-icon-192x192.png" group-title="France",BFM Radio (128.mp3)
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://audio.bfmtv.com/bfmradio_128.mp3
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Germany",Germany
 #EXTGRP:Germany
@@ -1969,13 +1965,13 @@ https://sr2.inmystream.info:8032/listen.m3u
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icestreaming.rai.it/5.mp3
 
-#EXTINF:-1 tvg-id="Italy_38" tvg-name="ITALIA Italia 80" tvg-logo="" group-title="Italy",ITALIA Italia 80
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icy.unitedradio.it/um016.mp3
-
-#EXTINF:-1 tvg-id="Italy_39" tvg-name="Radio 105 - Zoo Radio" tvg-logo="" group-title="Italy",Radio 105 - Zoo Radio
+#EXTINF:-1 tvg-id="Italy_38" tvg-name="Radio 105 - Zoo Radio" tvg-logo="" group-title="Italy",Radio 105 - Zoo Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icy.unitedradio.it/105Zoo.mp3
+
+#EXTINF:-1 tvg-id="Italy_39" tvg-name="ITALIA Italia 80" tvg-logo="" group-title="Italy",ITALIA Italia 80
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icy.unitedradio.it/um016.mp3
 
 #EXTINF:-1 tvg-id="Italy_40" tvg-name="Radio Sportiva" tvg-logo="https://www.radiosportiva.com/wp-content/uploads/2021/09/logo-radiosportiva-white.svg" group-title="Italy",Radio Sportiva
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2631,19 +2627,23 @@ http://live.radiocafe.ro:8048/live.aac
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://zuicast.digitalag.ro:9420/zu
 
-#EXTINF:-1 tvg-id="Romania_12" tvg-name="Virgin Radio Romania" tvg-logo="" group-title="Romania",Virgin Radio Romania
+#EXTINF:-1 tvg-id="Romania_12" tvg-name="Lautaru Populara" tvg-logo="https://radiotaraf.ro/wp-content/uploads/2020/04/cropped-1-2-radio-png-file-180x180.png" group-title="Romania",Lautaru Populara
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://live.radiolautaru.ro:9000/;stream.nsv
+
+#EXTINF:-1 tvg-id="Romania_13" tvg-name="Virgin Radio Romania" tvg-logo="" group-title="Romania",Virgin Radio Romania
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://virginradio.ro/VirginRadioRomania-live.m3u
 
-#EXTINF:-1 tvg-id="Romania_13" tvg-name="GoldFM" tvg-logo="http://www.radiogoldfm.ro/favicon.ico" group-title="Romania",GoldFM
+#EXTINF:-1 tvg-id="Romania_14" tvg-name="GoldFM" tvg-logo="http://www.radiogoldfm.ro/favicon.ico" group-title="Romania",GoldFM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://80.86.106.110:8002/
 
-#EXTINF:-1 tvg-id="Romania_14" tvg-name="Radio România Cultural" tvg-logo="" group-title="Romania",Radio România Cultural
+#EXTINF:-1 tvg-id="Romania_15" tvg-name="Radio România Cultural" tvg-logo="" group-title="Romania",Radio România Cultural
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream2.srr.ro:8012/
 
-#EXTINF:-1 tvg-id="Romania_15" tvg-name="Romantic FM" tvg-logo="https://romanticfm.ro/img/favicon.png" group-title="Romania",Romantic FM
+#EXTINF:-1 tvg-id="Romania_16" tvg-name="Romantic FM" tvg-logo="https://romanticfm.ro/img/favicon.png" group-title="Romania",Romantic FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://zuicast.digitalag.ro:9420/romanticfm
 
@@ -2859,13 +2859,13 @@ http://stream.cdm-chillout.com:8020/stream-AAC-Chill
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3
 
-#EXTINF:-1 tvg-id="Spain_19" tvg-name="MegaStarFM" tvg-logo="https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png" group-title="Spain",MegaStarFM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
-
-#EXTINF:-1 tvg-id="Spain_20" tvg-name="Absolute Chillout" tvg-logo="http://www.absolutechillout.com/favicon.ico" group-title="Spain",Absolute Chillout
+#EXTINF:-1 tvg-id="Spain_19" tvg-name="Absolute Chillout" tvg-logo="http://www.absolutechillout.com/favicon.ico" group-title="Spain",Absolute Chillout
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://edge4.peta.live365.net/b05055_128mp3
+
+#EXTINF:-1 tvg-id="Spain_20" tvg-name="MegaStarFM" tvg-logo="https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png" group-title="Spain",MegaStarFM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
 
 #EXTINF:-1 tvg-id="Spain_21" tvg-name="Radio Marca Barcelona" tvg-logo="http://e00-marca.uecdn.es/favicon.ico" group-title="Spain",Radio Marca Barcelona
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3120,13 +3120,13 @@ http://listen.rusongs.ru/ru-mp3-128
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://dorognoe.hostingradio.ru:8000/radio
 
-#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274
-
-#EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="Вести ФМ (Vesti FM)" tvg-logo="" group-title="The Russian Federation",Вести ФМ (Vesti FM)
+#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Вести ФМ (Vesti FM)" tvg-logo="" group-title="The Russian Federation",Вести ФМ (Vesti FM)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
+
+#EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274
 
 #EXTINF:-1 tvg-id="The Russian Federation_9" tvg-name="Шансон Радио" tvg-logo="" group-title="The Russian Federation",Шансон Радио
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3592,13 +3592,13 @@ http://radio.stereoscenic.com/asp-h
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream2.friskyradio.com/frisky_mp3_hi
 
-#EXTINF:-1 tvg-id="The United States Of America_19" tvg-name="Rockabilly-radio.net" tvg-logo="" group-title="The United States Of America",Rockabilly-radio.net
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://lin3.ash.fast-serv.com:6026/stream_96
-
-#EXTINF:-1 tvg-id="The United States Of America_20" tvg-name="Classic Vinyl HD Opus" tvg-logo="https://icecast.walmradio.com:8443/classic.jpg" group-title="The United States Of America",Classic Vinyl HD Opus
+#EXTINF:-1 tvg-id="The United States Of America_19" tvg-name="Classic Vinyl HD Opus" tvg-logo="https://icecast.walmradio.com:8443/classic.jpg" group-title="The United States Of America",Classic Vinyl HD Opus
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast.walmradio.com:8443/classic_opus
+
+#EXTINF:-1 tvg-id="The United States Of America_20" tvg-name="Rockabilly-radio.net" tvg-logo="" group-title="The United States Of America",Rockabilly-radio.net
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://lin3.ash.fast-serv.com:6026/stream_96
 
 #EXTINF:-1 tvg-id="The United States Of America_21" tvg-name="SomaFM Groove Salad (128k MP3)" tvg-logo="https://somafm.com/img3/groovesalad-400.jpg" group-title="The United States Of America",SomaFM Groove Salad (128k MP3)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
