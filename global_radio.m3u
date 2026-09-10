@@ -953,13 +953,13 @@ http://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.radiofrance.fr/fipjazz-hifi.aac
 
-#EXTINF:-1 tvg-id="France_34" tvg-name="Jazz Radio Only Women" tvg-logo="https://www.jazzradio.fr/apple-touch-icon-120x120.png" group-title="France",Jazz Radio Only Women
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://jazz-wr16.ice.infomaniak.ch/jazz-wr16-128.mp3
-
-#EXTINF:-1 tvg-id="France_35" tvg-name="France Inter" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png" group-title="France",France Inter
+#EXTINF:-1 tvg-id="France_34" tvg-name="France Inter" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png" group-title="France",France Inter
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8?id=radiofrance
+
+#EXTINF:-1 tvg-id="France_35" tvg-name="Jazz Radio Only Women" tvg-logo="https://www.jazzradio.fr/apple-touch-icon-120x120.png" group-title="France",Jazz Radio Only Women
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://jazz-wr16.ice.infomaniak.ch/jazz-wr16-128.mp3
 
 #EXTINF:-1 tvg-id="France_36" tvg-name="RFM" tvg-logo="http://cdn-rfm.lanmedia.fr/apple-touch-icon-120x120.png" group-title="France",RFM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2936,13 +2936,13 @@ http://strm112.1.fm/blues_mobile_mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.srg-ssr.ch/m/rsc_de/mp3_128
 
-#EXTINF:-1 tvg-id="Switzerland_9" tvg-name="1.FM - Cafe Radio" tvg-logo="" group-title="Switzerland",1.FM - Cafe Radio
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://strm112.1.fm/caferadio_mobile_mp3
-
-#EXTINF:-1 tvg-id="Switzerland_10" tvg-name="1.FM - Rock Classics Radio" tvg-logo="" group-title="Switzerland",1.FM - Rock Classics Radio
+#EXTINF:-1 tvg-id="Switzerland_9" tvg-name="1.FM - Rock Classics Radio" tvg-logo="" group-title="Switzerland",1.FM - Rock Classics Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://strm112.1.fm/rockclassics_mobile_mp3
+
+#EXTINF:-1 tvg-id="Switzerland_10" tvg-name="1.FM - Cafe Radio" tvg-logo="" group-title="Switzerland",1.FM - Cafe Radio
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://strm112.1.fm/caferadio_mobile_mp3
 
 #EXTINF:-1 tvg-id="Switzerland_11" tvg-name="1.FM - Bombay Beats India Radio" tvg-logo="" group-title="Switzerland",1.FM - Bombay Beats India Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
