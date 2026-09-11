@@ -502,10 +502,6 @@ https://unlimited3-cl.dps.live/biobiosantiago/aac/icecast.audio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://us9.maindigitalstream.com/ssl/radiosol
 
-#EXTINF:-1 tvg-id="Chile_3" tvg-name="De los Recuerdos" tvg-logo="https://www.fmdelosrecuerdos.cl/wp-content/uploads/2023/02/cropped-fav-recuerdos-180x180.png" group-title="Chile",De los Recuerdos
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://sonando.us.digitalproserver.com/fmdelosrecuerdos.aac
-
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="China",China
 #EXTGRP:China
 
@@ -1220,13 +1216,13 @@ http://stream02.iloveradio.de/iloveradio13.mp3?hadpreroll
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.technolovers.fm/deep-house?ref=radiobrowser
 
-#EXTINF:-1 tvg-id="Germany_45" tvg-name="0nlineradio SOFT ROCK" tvg-logo="https://i.ibb.co/SJFG3bt/soft-rock.jpg" group-title="Germany",0nlineradio SOFT ROCK
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://stream.0nlineradio.com/soft-rock?ref=radiobrowser
-
-#EXTINF:-1 tvg-id="Germany_46" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
+#EXTINF:-1 tvg-id="Germany_45" tvg-name="RADIO BOB! BOBs Metal" tvg-logo="" group-title="Germany",RADIO BOB! BOBs Metal
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/
+
+#EXTINF:-1 tvg-id="Germany_46" tvg-name="0nlineradio SOFT ROCK" tvg-logo="https://i.ibb.co/SJFG3bt/soft-rock.jpg" group-title="Germany",0nlineradio SOFT ROCK
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://stream.0nlineradio.com/soft-rock?ref=radiobrowser
 
 #EXTINF:-1 tvg-id="Germany_47" tvg-name="- 0 N - Indie on Radio" tvg-logo="https://www.0nradio.com/logos/0n-indie_600x600.jpg" group-title="Germany",- 0 N - Indie on Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2001,6 +1997,10 @@ https://stream.zeno.fm/qpn8mkt8c4duv
 #EXTINF:-1 tvg-id="Jordan_0" tvg-name="Mazaj FM" tvg-logo="https://mazaj.fm/apple-touch-icon.png" group-title="Jordan",Mazaj FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://mazajfm.ice.infomaniak.ch/mazajfm-192.mp3
+
+#EXTINF:-1 tvg-id="Jordan_1" tvg-name="Jordan Melody FM" tvg-logo="" group-title="Jordan",Jordan Melody FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://s3.voscast.com:9966/
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Kazakhstan",Kazakhstan
 #EXTGRP:Kazakhstan
@@ -2883,12 +2883,20 @@ http://stream.zeno.fm/s70bvdgqks8uv
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbkissfm.kissfmradio.cires21.com/bbkissfm.mp3
 
+#EXTINF:-1 tvg-id="Spain_26" tvg-name="Cope Sevilla" tvg-logo="" group-title="Spain",Cope Sevilla
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://sevilla.copesedes.stream.flumotion.com/copesedes/sevilla.mp3.m3u
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sri Lanka",Sri Lanka
 #EXTGRP:Sri Lanka
 
 #EXTINF:-1 tvg-id="Sri Lanka_0" tvg-name="Y FM" tvg-logo="" group-title="Sri Lanka",Y FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://live.trusl.com:1180/;
+
+#EXTINF:-1 tvg-id="Sri Lanka_1" tvg-name="Tube Tamil FM Radio டியூப் தமிழ் எஃப்.எம் பண்பலை ரேடியோ" tvg-logo="" group-title="Sri Lanka",Tube Tamil FM Radio டியூப் தமிழ் எஃப்.எம் பண்பலை ரேடியோ
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://s2.voscast.com:12084/;stream1619441439791/1
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="State Of Palestine",State Of Palestine
 #EXTGRP:State Of Palestine
@@ -3081,11 +3089,7 @@ http://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR04.mp3
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="The Philippines",The Philippines
 #EXTGRP:The Philippines
 
-#EXTINF:-1 tvg-id="The Philippines_0" tvg-name="DYHP 612 RMN Cebu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cb/DYHP_612.png" group-title="The Philippines",DYHP 612 RMN Cebu
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://de3.amfmph.com/ssl/rmncebu?mp=%2Fstream
-
-#EXTINF:-1 tvg-id="The Philippines_1" tvg-name="Star FM Manila" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/60/1027starfm.png" group-title="The Philippines",Star FM Manila
+#EXTINF:-1 tvg-id="The Philippines_0" tvg-name="Star FM Manila" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/60/1027starfm.png" group-title="The Philippines",Star FM Manila
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream-13.zeno.fm/g1pmt17nz9duv
 
@@ -3816,13 +3820,13 @@ https://voa-ingest.akamaized.net/hls/live/2035234/160_342L/playlist.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream.radioparadise.com/aac-128
 
-#EXTINF:-1 tvg-id="The United States Of America_75" tvg-name="181.FM - Super 70s" tvg-logo="http://www.181.fm/favicon.ico" group-title="The United States Of America",181.FM - Super 70s
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://www.181.fm/stream/pls/181-70s.m3u
-
-#EXTINF:-1 tvg-id="The United States Of America_76" tvg-name="Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds" tvg-logo="https://musiclake.com/wp-content/uploads/cropped-musiclake-lg-180x180.png" group-title="The United States Of America",Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds
+#EXTINF:-1 tvg-id="The United States Of America_75" tvg-name="Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds" tvg-logo="https://musiclake.com/wp-content/uploads/cropped-musiclake-lg-180x180.png" group-title="The United States Of America",Music Lake - Relaxation Music Meditation Focus Chill Nature Sounds
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://nap.casthost.net:8626/stream
+
+#EXTINF:-1 tvg-id="The United States Of America_76" tvg-name="181.FM - Super 70s" tvg-logo="http://www.181.fm/favicon.ico" group-title="The United States Of America",181.FM - Super 70s
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://www.181.fm/stream/pls/181-70s.m3u
 
 #EXTINF:-1 tvg-id="The United States Of America_77" tvg-name="100hitz - Top 40" tvg-logo="https://100hitz.com/favicon.ico" group-title="The United States Of America",100hitz - Top 40
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -4128,19 +4132,15 @@ https://online.kissfm.ua/KissFM_Digital_HD
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.brokenbeats.net/tune
 
-#EXTINF:-1 tvg-id="Ukraine_26" tvg-name="Закарпаття FM" tvg-logo="http://zakarpattyafm.com.ua/wp-content/themes/zakfm/ico.png" group-title="Ukraine",Закарпаття FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://195.234.148.51:8000/;
-
-#EXTINF:-1 tvg-id="Ukraine_27" tvg-name="Lviv Wave Radio" tvg-logo="" group-title="Ukraine",Lviv Wave Radio
+#EXTINF:-1 tvg-id="Ukraine_26" tvg-name="Lviv Wave Radio" tvg-logo="" group-title="Ukraine",Lviv Wave Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://onair.lviv.fm:8000/lviv.fm
 
-#EXTINF:-1 tvg-id="Ukraine_28" tvg-name="Радіо ROKS 103.6" tvg-logo="" group-title="Ukraine",Радіо ROKS 103.6
+#EXTINF:-1 tvg-id="Ukraine_27" tvg-name="Радіо ROKS 103.6" tvg-logo="" group-title="Ukraine",Радіо ROKS 103.6
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://online.radioroks.ua/RadioROKS
 
-#EXTINF:-1 tvg-id="Ukraine_29" tvg-name="Мелодія FM Romantic" tvg-logo="" group-title="Ukraine",Мелодія FM Romantic
+#EXTINF:-1 tvg-id="Ukraine_28" tvg-name="Мелодія FM Romantic" tvg-logo="" group-title="Ukraine",Мелодія FM Romantic
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://online.melodiafm.ua/MelodiaFM_Romantic_Live
 
