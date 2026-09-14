@@ -2105,6 +2105,10 @@ http://eu8.fastcast4u.com:5068/;
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream.zeno.fm/hiut6cwfoneuv
 
+#EXTINF:-1 tvg-id="Malaysia_2" tvg-name="Melody FM Malaysia" tvg-logo="https://media2.fishtank.my/app_themes/melody/ico/apple-icon-120x120.png" group-title="Malaysia",Melody FM Malaysia
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://n09.rcs.revma.com/2u1n6dtbv4uvv/9_11l86ncot7z1w02/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Mauritius",Mauritius
 #EXTGRP:Mauritius
 
@@ -2331,10 +2335,6 @@ https://whmsonic.radio.gov.pk:7004/stream?type=http&nocache=12
 #EXTINF:-1 tvg-id="Pakistan_9" tvg-name="FM 101 Islamabad" tvg-logo="" group-title="Pakistan",FM 101 Islamabad
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://whmsonic.radio.gov.pk:7008/stream
-
-#EXTINF:-1 tvg-id="Pakistan_10" tvg-name="City FM 89" tvg-logo="" group-title="Pakistan",City FM 89
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://radio.cityfm89.com/stream
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Peru",Peru
 #EXTGRP:Peru
@@ -3296,25 +3296,25 @@ https://solovievfm.hostingradio.ru/solovievfm128.aacp
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://hitfm.hostingradio.ru/hitfm96.aacp
 
-#EXTINF:-1 tvg-id="The Russian Federation_52" tvg-name="Русское Радио: Русский Рок" tvg-logo="" group-title="The Russian Federation",Русское Радио: Русский Рок
+#EXTINF:-1 tvg-id="The Russian Federation_52" tvg-name="Anon.FM" tvg-logo="https://icecast.anon.fm/favicon.png" group-title="The Russian Federation",Anon.FM
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+https://icecast.anon.fm/radio
+
+#EXTINF:-1 tvg-id="The Russian Federation_53" tvg-name="Русское Радио: Русский Рок" tvg-logo="" group-title="The Russian Federation",Русское Радио: Русский Рок
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://rr-russkijrok.hostingradio.ru/russkijrok96.aacp.m3u
 
-#EXTINF:-1 tvg-id="The Russian Federation_53" tvg-name="Вести FM" tvg-logo="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-120x120.png" group-title="The Russian Federation",Вести FM
+#EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Вести FM" tvg-logo="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-120x120.png" group-title="The Russian Federation",Вести FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast-vgtrk.cdnvideo.ru/vestifm
 
-#EXTINF:-1 tvg-id="The Russian Federation_54" tvg-name="Новое Радио 91.1 (СПб)" tvg-logo="https://newradio.ru/favicon.ico" group-title="The Russian Federation",Новое Радио 91.1 (СПб)
+#EXTINF:-1 tvg-id="The Russian Federation_55" tvg-name="Новое Радио 91.1 (СПб)" tvg-logo="https://newradio.ru/favicon.ico" group-title="The Russian Federation",Новое Радио 91.1 (СПб)
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://emgspb.hostingradio.ru/novoespb128.mp3
 
-#EXTINF:-1 tvg-id="The Russian Federation_55" tvg-name="Ностальгия - Дорожное радио" tvg-logo="https://top-radio.ru/assets/image/radio/180/drnostalgy.png" group-title="The Russian Federation",Ностальгия - Дорожное радио
+#EXTINF:-1 tvg-id="The Russian Federation_56" tvg-name="Ностальгия - Дорожное радио" tvg-logo="https://top-radio.ru/assets/image/radio/180/drnostalgy.png" group-title="The Russian Federation",Ностальгия - Дорожное радио
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://stream1.hostingradio.ru:8010/19_mp3_128
-
-#EXTINF:-1 tvg-id="The Russian Federation_56" tvg-name="Anon.FM" tvg-logo="https://icecast.anon.fm/favicon.png" group-title="The Russian Federation",Anon.FM
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-https://icecast.anon.fm/radio
 
 #EXTINF:-1 tvg-id="The Russian Federation_57" tvg-name="HIP HOP RADIO" tvg-logo="" group-title="The Russian Federation",HIP HOP RADIO
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3744,13 +3744,13 @@ http://server1.chilltrax.com:9000/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://liveaudio.lamusica.com/MIA_WCMQ_icy
 
-#EXTINF:-1 tvg-id="The United States Of America_57" tvg-name="The Jazz Groove - East" tvg-logo="" group-title="The United States Of America",The Jazz Groove - East
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://east-mp3-128.streamthejazzgroove.com/stream
-
-#EXTINF:-1 tvg-id="The United States Of America_58" tvg-name="101 SMOOTH JAZZ MELLOW MIX" tvg-logo="" group-title="The United States Of America",101 SMOOTH JAZZ MELLOW MIX
+#EXTINF:-1 tvg-id="The United States Of America_57" tvg-name="101 SMOOTH JAZZ MELLOW MIX" tvg-logo="" group-title="The United States Of America",101 SMOOTH JAZZ MELLOW MIX
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://www.101smoothjazz.com/101-mellowmix.m3u
+
+#EXTINF:-1 tvg-id="The United States Of America_58" tvg-name="The Jazz Groove - East" tvg-logo="" group-title="The United States Of America",The Jazz Groove - East
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://east-mp3-128.streamthejazzgroove.com/stream
 
 #EXTINF:-1 tvg-id="The United States Of America_59" tvg-name="98.1 KBEAR" tvg-logo="https://pwa.tunegenie.com/kyyaam/icon-192.png" group-title="The United States Of America",98.1 KBEAR
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
