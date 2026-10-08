@@ -3117,13 +3117,13 @@ http://retroserver.streamr.ru:8043/retro256.mp3
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
 
-#EXTINF:-1 tvg-id="The Russian Federation_6" tvg-name="Дорожное радио" tvg-logo="https://dorognoe.ru/assets/default/i/fav_114x114.png" group-title="The Russian Federation",Дорожное радио
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://dorognoe.hostingradio.ru:8000/radio
-
-#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Радио Русские Песни" tvg-logo="" group-title="The Russian Federation",Радио Русские Песни
+#EXTINF:-1 tvg-id="The Russian Federation_6" tvg-name="Радио Русские Песни" tvg-logo="" group-title="The Russian Federation",Радио Русские Песни
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://listen.rusongs.ru/ru-mp3-128
+
+#EXTINF:-1 tvg-id="The Russian Federation_7" tvg-name="Дорожное радио" tvg-logo="https://dorognoe.ru/assets/default/i/fav_114x114.png" group-title="The Russian Federation",Дорожное радио
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://dorognoe.hostingradio.ru:8000/radio
 
 #EXTINF:-1 tvg-id="The Russian Federation_8" tvg-name="DFM RUSSIAN DANCE" tvg-logo="https://dfm.ru/uploads/favicon.ico" group-title="The Russian Federation",DFM RUSSIAN DANCE
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -3209,13 +3209,13 @@ https://radiorecord.hostingradio.ru/rr_main96.aacp
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://www.discovertrance.com/DiscoverTrance-high.m3u
 
-#EXTINF:-1 tvg-id="The Russian Federation_29" tvg-name="Шансон без цензуры" tvg-logo="https://www.eff.org/files/Button_Russian_white.png" group-title="The Russian Federation",Шансон без цензуры
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://chanson.hostingradio.ru:8041/chanson-uncensored256.mp3
-
-#EXTINF:-1 tvg-id="The Russian Federation_30" tvg-name="Anon.FM" tvg-logo="https://icecast.anon.fm/favicon.png" group-title="The Russian Federation",Anon.FM
+#EXTINF:-1 tvg-id="The Russian Federation_29" tvg-name="Anon.FM" tvg-logo="https://icecast.anon.fm/favicon.png" group-title="The Russian Federation",Anon.FM
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://icecast.anon.fm/radio
+
+#EXTINF:-1 tvg-id="The Russian Federation_30" tvg-name="Шансон без цензуры" tvg-logo="https://www.eff.org/files/Button_Russian_white.png" group-title="The Russian Federation",Шансон без цензуры
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://chanson.hostingradio.ru:8041/chanson-uncensored256.mp3
 
 #EXTINF:-1 tvg-id="The Russian Federation_31" tvg-name="Радио Maximum" tvg-logo="http://maximum.ru/favicon.ico" group-title="The Russian Federation",Радио Maximum
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
