@@ -1750,13 +1750,13 @@ https://carol.epichosts.co.uk:8570/;
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="India_22" tvg-name="2B! Radio Sangam Ganesha" tvg-logo="" group-title="India",2B! Radio Sangam Ganesha
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://radio2bindia.out.airtime.pro:8000/radio2bindia_a
-
-#EXTINF:-1 tvg-id="India_23" tvg-name="Radio Retro Bollywood 90s" tvg-logo="" group-title="India",Radio Retro Bollywood 90s
+#EXTINF:-1 tvg-id="India_22" tvg-name="Radio Retro Bollywood 90s" tvg-logo="" group-title="India",Radio Retro Bollywood 90s
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://stream-143.zeno.fm/fdgs82xkzhhvv
+
+#EXTINF:-1 tvg-id="India_23" tvg-name="2B! Radio Sangam Ganesha" tvg-logo="" group-title="India",2B! Radio Sangam Ganesha
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://radio2bindia.out.airtime.pro:8000/radio2bindia_a
 
 #EXTINF:-1 tvg-id="India_24" tvg-name="TORi-Live-8000" tvg-logo="" group-title="India",TORi-Live-8000
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -2301,13 +2301,13 @@ http://s3.voscast.com:10038/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 http://162.244.81.98:8140/listen
 
-#EXTINF:-1 tvg-id="Mexico_3" tvg-name="Panda Show Radio - Online - El Panda Zambrano - Ciudad de México" tvg-logo="https://cdn-radiotime-logos.tunein.com/s96692d.png" group-title="Mexico",Panda Show Radio - Online - El Panda Zambrano - Ciudad de México
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-http://65.21.202.84:8062/
-
-#EXTINF:-1 tvg-id="Mexico_4" tvg-name="W Radio Ciudad de México (XEW-AM 900 kHz XEW-FM 96.9 MHz) Televisa Radio" tvg-logo="http://wradio.com.mx/pf/resources/wradiomx/favicon.ico?d=71" group-title="Mexico",W Radio Ciudad de México (XEW-AM 900 kHz XEW-FM 96.9 MHz) Televisa Radio
+#EXTINF:-1 tvg-id="Mexico_3" tvg-name="W Radio Ciudad de México (XEW-AM 900 kHz XEW-FM 96.9 MHz) Televisa Radio" tvg-logo="http://wradio.com.mx/pf/resources/wradiomx/favicon.ico?d=71" group-title="Mexico",W Radio Ciudad de México (XEW-AM 900 kHz XEW-FM 96.9 MHz) Televisa Radio
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 https://provisioning.streamtheworld.com/pls/W_RADIOAAC.m3u
+
+#EXTINF:-1 tvg-id="Mexico_4" tvg-name="Panda Show Radio - Online - El Panda Zambrano - Ciudad de México" tvg-logo="https://cdn-radiotime-logos.tunein.com/s96692d.png" group-title="Mexico",Panda Show Radio - Online - El Panda Zambrano - Ciudad de México
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+http://65.21.202.84:8062/
 
 #EXTINF:-1 tvg-id="Mexico_5" tvg-name="El Fonógrafo Música las 24 horas (elfonografo.mx) - Online - Grupo Radio Centro - Ciudad de México" tvg-logo="" group-title="Mexico",El Fonógrafo Música las 24 horas (elfonografo.mx) - Online - Grupo Radio Centro - Ciudad de México
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
